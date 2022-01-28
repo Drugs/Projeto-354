@@ -104,9 +104,8 @@ p {
   }
 }
 
-.btn-outline-success:hover {
-    color: #fff;
-    background-color: #e92187;
+.btn-outline-success {
+    color: #e92187;
     border-color: #e92187;
 }
 
