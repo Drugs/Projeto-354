@@ -55,7 +55,7 @@
             <a class="nav-link disabled"></a>
           </li>
         </ul>
-		<a class="btn btn-outline-success" type="submit">Login</a><br>
+		<a class="btn btn-outline-success" type="submit">Login</a>
 		</form>
         <form class="d-flex">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
