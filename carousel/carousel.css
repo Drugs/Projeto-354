@@ -1,6 +1,4 @@
-/* GLOBAL STYLES
--------------------------------------------------- */
-/* Padding below the footer and lighter body text */
+
 
 body {
   padding-top: 3rem;
@@ -8,6 +6,13 @@ body {
   color: #e92187;
 }
 
+a {
+color: #e92187;
+    
+   
+}	
+	
+}
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -91,3 +96,5 @@ body {
     margin-top: 7rem;
   }
 }
+
+
