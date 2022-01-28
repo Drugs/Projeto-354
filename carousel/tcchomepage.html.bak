@@ -235,14 +235,14 @@
                 </li>
                 <li class="price">R$70,00</li>
               </ul>
-            </div><a href="#" class="add-to-cart btn btn-primary">adicione ao carrinho <i class="icon-cart-1"></i></a><br><br>
+            </div><a href="#" class="add-to-cart btn btn-primary">adicione ao carrinho <i class="icon-cart-1"></i></a><br><br><br><br>
           </div>
         </div>
       </div>
     </section>
     <section class="new-arrivals">
       <div class="container text-center">
-        <h2 class="heading-center">Produtos em Alta</h2><br><br>
+        <h2 class="heading-center">Produtos em Alta</h2>
         <div class="items">
           <div class="row">
             <div class="col-lg-4 item">
