@@ -12,7 +12,7 @@
 			if(isset($_GET['erro']) and $_GET != null){
 				echo "<p>{$_GET['erro']}</p>";
 			}else{
-				echo "<p>Faça login para acessar a loja</p>";
+				echo "<p>Faça login para acessar a lorja</p>";
 			}
 		?>
 		
@@ -22,7 +22,7 @@
 					<input placeholder="Digite seu email" class="form-control mb-3" type="email" name="email" />
 					<input  placeholder="Digite a senha" class="form-control mb-3" type="password" name="senha" />
 					<input class="w-100 btn btn-primary btn-lg" type="submit" />
-					<a href='cadastrotcc.html' class="w-100 btn mt-3 btn-outline-primary
+					<a href='cadastrotcc.php' class="w-100 btn mt-3 btn-outline-primary
 					btn.lg">Cadastre-se</a>
 				</form>
 			</div>

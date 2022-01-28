@@ -1,8 +1,9 @@
 <?php
-$servidor ='localhost';
+$title = 'cadastro';
+/*$servidor ='localhost';
 	$usuario ='root'; 
 	$senha = '';
-	$banco = 'banco';
+	$banco = 'BAKBANK';
 
 	$mysql = mysqli_connect($servidor, $usuario, $senha, $banco);
 
@@ -31,14 +32,14 @@ if(isset($_GET) and $_GET != null){
 	
 	
 }
-
+*/
 ?>
 <!DOCTYPE HTML>
 <html lang="en-US">
 <head>
 	<meta charset="UTF-8">
 	<title><?=$title?></title>
-	<link href="cadastrocss.css" rel="stylesheet">
+	<link href="../css/cadastrocss.css" rel="stylesheet">
 </head>
 <body>
 <div id="cadastro">
@@ -72,7 +73,7 @@ if(isset($_GET) and $_GET != null){
            
           <p class="link">  
             Já tem conta?
-            <a href="logintcc.html"> Ir para Login </a>
+            <a href="logintcc.php"> Ir para Login </a>
           </p>
         </form>
       </div>

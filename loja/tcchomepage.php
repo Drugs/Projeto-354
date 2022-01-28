@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -6,11 +7,10 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.88.1">
-    <title>Carousel Template · Bootstrap v5.1</title>
+    <title>Loja</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">
 
-    
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"  rel="stylesheet">
 
@@ -30,13 +30,26 @@
       }
     </style>
 
-    
     <!-- Custom styles for this template -->
-    <link href="carousel.css" rel="stylesheet">
+    <link href="./css/carousel.css" rel="stylesheet">
   </head>
   <body>
     
 <header>
+<div class="container">
+        <div class="row mt-5 align-items-stretch">
+          <div class="mt-5 col-lg-6 d-flex align-items-center">
+            <div class="content">
+              <h1>Camisa Tribal</h1>
+              <p class="hero-text"><strong>6 cores variadas</strong><strong></strong> para a costumização.</p>
+			  <a href=".big-product" class="buy btn btn-primary">Compre agora <i class="icon-shopping-bag"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-6">               
+            <div class="image mt-5 d-none d-lg-block"><img src="./img/camisaindio.jpg" alt="t-shirt" class="img-fluid mx-auto d-block"></div>
+          </div>
+        </div>
+      </div>
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"><font color="#e92187">Tia Cleide Store</font></a>
@@ -55,6 +68,10 @@
             <a class="nav-link disabled"></a>
           </li>
         </ul>
+		
+		<form class="d-flex">
+		<a  class="btn btn-outline-success  me-2" href="loja/logintcc.php"><font color="#e92187" type="submit">Login</font></a>
+		</form>
         <form class="d-flex">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-success" type="submit">Search</button>
@@ -65,7 +82,6 @@
 </header>
 
 <main>
-
   <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -79,7 +95,7 @@
           <div class="carousel-caption text-start">
             <h1>Roupas pra todos os estilos</h1>
             <p>Navegue pelo nosso site e descubra.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">saiba mais</a></p>
+            <p><a class="btn btn-lg btn-primary" href="#">Saiba mais</a></p>
           </div>
         </div>
       </div>
@@ -115,21 +131,15 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-
-
-  <!-- Marketing messaging and featurettes
-  ================================================== -->
-  <!-- Wrap the rest of the page in another container to center all the content. -->
-
+  
   <div class="container marketing">
 
-    <!-- Three columns of text below the carousel -->
     <div class="row">
       <div class="col-lg-4">
         <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
 
-        <h2>Quem somos nóis:</h2>
-        <p>Aceitamos todos os cartões, até o da loja de carros kkk.</p>
+        <h2>Quem sou eu:</h2>
+        <p>Sou estudante e pratico música na igreja.</p>
         <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
@@ -176,7 +186,6 @@
 
       </div>
     </div>
-
     <hr class="featurette-divider">
 
     <div class="row featurette">
@@ -189,23 +198,92 @@
 
       </div>
     </div>
+    <section class="big-product">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 product"><img src="./img/rosa.jpg" alt="t-shirt" class="img-fluid"></div>
+          <div class="col-md-8 info">
+            <div class="info-wrapper">
+              <h2>Rosa Deslumbrante</h2>
+              <p class="lead">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                et dolore
+              </p>
+            </div><a href="#" class="add-to-cart btn btn-primary">adicione ao carrinho <i class="icon-cart-1"></i></a><br><br><br><br>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="new-arrivals">
+      <div class="container text-center">
+        <h2 class="heading-center">Produtos em Alta</h2>
+        <div class="items">
+          <div class="row">
+            <div class="col-lg-4 item">
+              <div class="item-image"><img src="./img/camisa1.jpg" alt="shirt">
+                <div class="hover-overlay">
+                  <ul class="list-inline">
+                    <li class="list-inline-item"><a href="javascript: return void();" class="cart"><i class="icon-cart-1"></i></a></li>
+                    <li class="list-inline-item"><a href="javascript: return void();" class="wishlist"><i class="icon-like"></i></a></li>
+                    <li class="list-inline-item"><a href="#" data-target="#cart-popup-1" class="expand"><i class="icon-expand"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="item-info">
+                <h5>Camisa de anime básica branca</h5>
+                <ul class="price list-inline">
+                  <li class="list-inline-item current">R$40,00</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-4 item">
+              <div class="item-image"><img src="./img/camisa2.jpg" alt="shirt">
+                <div class="hover-overlay">
+                  <ul class="list-inline">
+                    <li class="list-inline-item"><a href="javascript: return void();" class="cart"><i class="icon-cart-1"></i></a></li>
+                    <li class="list-inline-item"><a href="javascript: return void();" class="wishlist"><i class="icon-like"></i></a></li>
+                    <li class="list-inline-item"><a href="#" data-target="#cart-popup-1" class="expand"><i class="icon-expand"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="item-info">
+                <h5>Camisa do Naruto</h5>
+                <ul class="price list-inline">
+                  <li class="old list-inline-item">R$70,00</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-4 item">
+              <div class="item-image"><img src="./img/camisa3.jpg" alt="shirt">
+               <div class="item-info"><br><br>
+                <h5>Camisa de Anime básica rosa</h5>
+                <ul class="price list-inline">
+                  <li class="old list-inline-item">R$40,00</li>
+                <div class="hover-overlay">
+                 <ul class="list-inline">
+                    <li class="list-inline-item"><a href="javascript: return void();" class="cart"><i class="icon-cart-1"></i></a></li>
+                    <li class="list-inline-item"><a href="javascript: return void();" class="wishlist"><i class="icon-like"></i></a></li>
+                    <li class="list-inline-item"><a href="#" data-target="#cart-popup-1" class="expand"><i class="icon-expand"></i></a></li>
+                  </ul>
+                </div>
+              </div>
 
-    <hr class="featurette-divider">
 
     <!-- /END THE FEATURETTES -->
 
   </div><!-- /.container -->
 
 
-  <!-- FOOTER -->
+ 
+</main>
+    <hr class="featurette-divider">
+ <!-- FOOTER -->
   <footer class="container">
     <p class="float-end"><a href="#">Back to top</a></p>
     <p>&copy; 2017–2021 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
   </footer>
-</main>
 
-
-    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" ></script>
 
       
   </body>

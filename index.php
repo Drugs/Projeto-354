@@ -1,3 +1,3 @@
 <?php
-	include 'carousel/tcchomepage.php';
+	include 'loja/tcchomepage.php';
 ?>
