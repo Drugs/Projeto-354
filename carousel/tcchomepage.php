@@ -7,11 +7,10 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.88.1">
-    <title>Carousel Template · Bootstrap v5.1</title>
+    <title>Xurrraixxxxco</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">
 
-    
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"  rel="stylesheet">
 
@@ -31,16 +30,15 @@
       }
     </style>
 
-    
     <!-- Custom styles for this template -->
     <link href="carousel.css" rel="stylesheet">
   </head>
   <body>
     
-<header><br><br><br>
+<header>
 <div class="container">
-        <div class="row align-items-stretch">
-          <div class="col-lg-6 d-flex align-items-center">
+        <div class="row mt-5 align-items-stretch">
+          <div class="mt-5 col-lg-6 d-flex align-items-center">
             <div class="content">
               <h1>Camisa Tribal</h1>
               <p class="hero-text"><strong>6 cores variadas</strong><strong></strong> para a costumização.</p>
@@ -48,7 +46,7 @@
             </div>
           </div>
           <div class="col-lg-6">               
-            <div class="image d-none d-lg-block"><img src="https://d19m59y37dris4.cloudfront.net/shirt/2-1-1/img/hero-shirt.jpg" alt="t-shirt" class="img-fluid mx-auto d-block"></div>
+            <div class="image mt-5 d-none d-lg-block"><img src="https://d19m59y37dris4.cloudfront.net/shirt/2-1-1/img/hero-shirt.jpg" alt="t-shirt" class="img-fluid mx-auto d-block"></div>
           </div>
         </div>
       </div>
@@ -70,10 +68,9 @@
             <a class="nav-link disabled"></a>
           </li>
         </ul>
-
-
+		
 		<form class="d-flex">
-		<a class="btn btn-outline-success" href="logintcc.html"><font color="#e92187" type="submit">Login</font></a>
+		<a class="btn btn-outline-success" href="carousel/logintcc.php"><font color="#e92187" type="submit">Login</font></a>
 		</form>
         <form class="d-flex">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -85,7 +82,6 @@
 </header>
 
 <main>
-
   <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -135,13 +131,9 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-
-
- 
-
+  
   <div class="container marketing">
 
-    
     <div class="row">
       <div class="col-lg-4">
         <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
@@ -209,7 +201,7 @@
     <section class="big-product">
       <div class="container">
         <div class="row">
-          <div class="col-md-4 product"><img src="https://cdn.discordapp.com/attachments/725462268803940446/936441039290523668/rosa.jpg" alt="t-shirt" class="img-fluid"></div>
+          <div class="col-md-4 product"><img src="./img/rosa.jpg" alt="t-shirt" class="img-fluid"></div>
           <div class="col-md-8 info">
             <div class="info-wrapper">
               <h2>Rosa Deslumbrante</h2>
@@ -217,24 +209,6 @@
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                 et dolore
               </p>
-              <ul class="product-info list-unstyled">
-                <li class="size">
-                  <div class="btn-group bootstrap-select"><button type="button" class="btn dropdown-toggle bs-placeholder btn-default" data-toggle="dropdown" role="button" title="Tamanho"><span class="filter-option pull-left">Choose Your Size</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span></button><div class="dropdown-menu open" role="combobox"><ul class="dropdown-menu inner" role="listbox" aria-expanded="false"><li data-original-index="1"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="text">Small</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li><li data-original-index="2"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="text">Medium</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li><li data-original-index="3"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="text">Large</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li><li data-original-index="4"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="text">X-Large</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li></ul></div><select title="Choose Your Size" class="selectpicker" tabindex="-98"><option class="bs-title-option" value="">Choose Your Size</option>
-                    <option value="small">Pequena</option>
-                    <option value="medium">Media</option>
-                    <option value="large">Grande</option>
-                    <option value="x-large">Extra-Grande</option>
-                  </select></div>
-                </li>
-                <li class="size">
-                  <div class="product-quantity">
-                    <div class="minus-btn"><i class="icon-android-remove"></i></div>
-                    <input type="text" value="1" class="quantity">
-                    <div class="plus-btn"><i class="icon-android-add"></i></div>
-                  </div>
-                </li>
-                <li class="price">R$70,00</li>
-              </ul>
             </div><a href="#" class="add-to-cart btn btn-primary">adicione ao carrinho <i class="icon-cart-1"></i></a><br><br><br><br>
           </div>
         </div>
@@ -246,7 +220,7 @@
         <div class="items">
           <div class="row">
             <div class="col-lg-4 item">
-              <div class="item-image"><img src="camisa1.jpg" alt="shirt">
+              <div class="item-image"><img src="./img/camisa1.jpg" alt="shirt">
                 <div class="hover-overlay">
                   <ul class="list-inline">
                     <li class="list-inline-item"><a href="javascript: return void();" class="cart"><i class="icon-cart-1"></i></a></li>
@@ -263,7 +237,7 @@
               </div>
             </div>
             <div class="col-lg-4 item">
-              <div class="item-image"><img src="camisa2.jpg" alt="shirt">
+              <div class="item-image"><img src="./img/camisa2.jpg" alt="shirt">
                 <div class="hover-overlay">
                   <ul class="list-inline">
                     <li class="list-inline-item"><a href="javascript: return void();" class="cart"><i class="icon-cart-1"></i></a></li>
@@ -280,7 +254,7 @@
               </div>
             </div>
             <div class="col-lg-4 item">
-              <div class="item-image"><img src="camisa3.jpg" alt="shirt">
+              <div class="item-image"><img src="./img/camisa3.jpg" alt="shirt">
                <div class="item-info"><br><br>
                 <h5>Camisa de Anime básica preta</h5>
                 <ul class="price list-inline">
@@ -293,20 +267,21 @@
                   </ul>
                 </div>
               </div>
-    <hr class="featurette-divider">
+
 
     <!-- /END THE FEATURETTES -->
 
   </div><!-- /.container -->
 
 
-  <!-- FOOTER -->
+ 
+</main>
+    <hr class="featurette-divider">
+ <!-- FOOTER -->
   <footer class="container">
     <p class="float-end"><a href="#">Back to top</a></p>
     <p>&copy; 2017–2021 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
   </footer>
-</main>
-
 
     <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
 
