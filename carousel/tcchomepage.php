@@ -230,7 +230,7 @@
                 </div>
               </div>
               <div class="item-info">
-                <h5>Camisa de anima básica branca</h5>
+                <h5>Camisa de anime básica branca</h5>
                 <ul class="price list-inline">
                   <li class="list-inline-item current">R$40,00</li>
                 </ul>

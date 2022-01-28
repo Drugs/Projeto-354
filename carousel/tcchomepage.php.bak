@@ -70,7 +70,7 @@
         </ul>
 		
 		<form class="d-flex">
-		<a class="btn btn-outline-success" href="carousel/logintcc.php"><font color="#e92187" type="submit">Login</font></a>
+		<a  class="btn btn-outline-success  me-2" href="carousel/logintcc.php"><font color="#e92187" type="submit">Login</font></a>
 		</form>
         <form class="d-flex">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -230,7 +230,7 @@
                 </div>
               </div>
               <div class="item-info">
-                <h5>Camisa de anima básica rosa</h5>
+                <h5>Camisa de anima básica branca</h5>
                 <ul class="price list-inline">
                   <li class="list-inline-item current">R$40,00</li>
                 </ul>
@@ -256,7 +256,7 @@
             <div class="col-lg-4 item">
               <div class="item-image"><img src="./img/camisa3.jpg" alt="shirt">
                <div class="item-info"><br><br>
-                <h5>Camisa de Anime básica preta</h5>
+                <h5>Camisa de Anime básica rosa</h5>
                 <ul class="price list-inline">
                   <li class="old list-inline-item">R$40,00</li>
                 <div class="hover-overlay">
