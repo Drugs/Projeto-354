@@ -26,7 +26,7 @@ if(isset($_GET) and $_GET != null){
 	$insert_usuario = "INSERT INTO usuario( email, senha, fk_id_pessoa) VALUES ('$email','$senha','$last_id')";
 	$query = mysqli_query($mysql , $insert_usuario);
 	
-	header('Location: login.php?erro=O Cadastro foi realizado!!!');
+	header('Location: logintcc.php?erro=O Cadastro foi realizado!!!');
 	
 	
 	
