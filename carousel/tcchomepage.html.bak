@@ -137,19 +137,17 @@
   </div>
 
 
-  <!-- Marketing messaging and featurettes
-  ================================================== -->
-  <!-- Wrap the rest of the page in another container to center all the content. -->
+ 
 
   <div class="container marketing">
 
-    <!-- Three columns of text below the carousel -->
+    
     <div class="row">
       <div class="col-lg-4">
         <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
 
-        <h2>Quem somos nós:</h2>
-        <p>Aceitamos todos os cartões, até o da loja de carros!!!</p>
+        <h2>Quem sou eu:</h2>
+        <p>Sou estudante e pratico música na igreja.</p>
         <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
@@ -237,12 +235,64 @@
                 </li>
                 <li class="price">R$70,00</li>
               </ul>
-            </div><a href="#" class="add-to-cart btn btn-primary">adicione ao carrinho <i class="icon-cart-1"></i></a>
+            </div><a href="#" class="add-to-cart btn btn-primary">adicione ao carrinho <i class="icon-cart-1"></i></a><br><br>
           </div>
         </div>
       </div>
     </section>
-
+    <section class="new-arrivals">
+      <div class="container text-center">
+        <h2 class="heading-center">Produtos em Alta</h2><br><br>
+        <div class="items">
+          <div class="row">
+            <div class="col-lg-4 item">
+              <div class="item-image"><img src="camisa1.jpg" alt="shirt">
+                <div class="hover-overlay">
+                  <ul class="list-inline">
+                    <li class="list-inline-item"><a href="javascript: return void();" class="cart"><i class="icon-cart-1"></i></a></li>
+                    <li class="list-inline-item"><a href="javascript: return void();" class="wishlist"><i class="icon-like"></i></a></li>
+                    <li class="list-inline-item"><a href="#" data-target="#cart-popup-1" class="expand"><i class="icon-expand"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="item-info">
+                <h5>Camisa de anima básica branca</h5>
+                <ul class="price list-inline">
+                  <li class="list-inline-item current">R$40,00</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-4 item">
+              <div class="item-image"><img src="camisa2.jpg" alt="shirt">
+                <div class="hover-overlay">
+                  <ul class="list-inline">
+                    <li class="list-inline-item"><a href="javascript: return void();" class="cart"><i class="icon-cart-1"></i></a></li>
+                    <li class="list-inline-item"><a href="javascript: return void();" class="wishlist"><i class="icon-like"></i></a></li>
+                    <li class="list-inline-item"><a href="#" data-target="#cart-popup-1" class="expand"><i class="icon-expand"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="item-info">
+                <h5>Camisa do Naruto</h5>
+                <ul class="price list-inline">
+                  <li class="old list-inline-item">R$70,00</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-4 item">
+              <div class="item-image"><img src="camisa3.jpg" alt="shirt">
+               <div class="item-info"><br><br>
+                <h5>Camisa de Anime básica preta</h5>
+                <ul class="price list-inline">
+                  <li class="old list-inline-item">R$40,00</li>
+                <div class="hover-overlay">
+                 <ul class="list-inline">
+                    <li class="list-inline-item"><a href="javascript: return void();" class="cart"><i class="icon-cart-1"></i></a></li>
+                    <li class="list-inline-item"><a href="javascript: return void();" class="wishlist"><i class="icon-like"></i></a></li>
+                    <li class="list-inline-item"><a href="#" data-target="#cart-popup-1" class="expand"><i class="icon-expand"></i></a></li>
+                  </ul>
+                </div>
+              </div>
     <hr class="featurette-divider">
 
     <!-- /END THE FEATURETTES -->
