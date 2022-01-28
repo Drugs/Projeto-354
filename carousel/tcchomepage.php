@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.88.1">
-    <title>Xurrraixxxxco</title>
+    <title>Loja</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">
 
@@ -31,7 +31,7 @@
     </style>
 
     <!-- Custom styles for this template -->
-    <link href="carousel.css" rel="stylesheet">
+    <link href="./css/carousel.css" rel="stylesheet">
   </head>
   <body>
     
@@ -46,7 +46,7 @@
             </div>
           </div>
           <div class="col-lg-6">               
-            <div class="image mt-5 d-none d-lg-block"><img src="https://d19m59y37dris4.cloudfront.net/shirt/2-1-1/img/hero-shirt.jpg" alt="t-shirt" class="img-fluid mx-auto d-block"></div>
+            <div class="image mt-5 d-none d-lg-block"><img src="./img/camisaindio.jpg" alt="t-shirt" class="img-fluid mx-auto d-block"></div>
           </div>
         </div>
       </div>
@@ -283,7 +283,7 @@
     <p>&copy; 2017–2021 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
   </footer>
 
-    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" ></script>
 
       
   </body>
