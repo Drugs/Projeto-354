@@ -17,6 +17,10 @@ h1{
 	color:black
 }
 
+p {
+	color:black
+}
+
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
