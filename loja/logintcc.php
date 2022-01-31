@@ -2,7 +2,7 @@
 <html lang="en-US">
 <head>
 	<meta charset="UTF-8">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="../css/logincss.css" rel="stylesheet">
 	<title>Login</title>
 </head>
 <body class="text-center">
@@ -12,7 +12,7 @@
 			if(isset($_GET['erro']) and $_GET != null){
 				echo "<p>{$_GET['erro']}</p>";
 			}else{
-				echo "<p>Faça login para acessar a lorja</p>";
+				echo "<p>Faça login para acessar a loja</p>";
 			}
 		?>
 		
@@ -22,8 +22,8 @@
 					<input placeholder="Digite seu email" class="form-control mb-3" type="email" name="email" />
 					<input  placeholder="Digite a senha" class="form-control mb-3" type="password" name="senha" />
 					<input class="w-100 btn btn-primary btn-lg" type="submit" />
-					<a href='cadastrotcc.php' class="w-100 btn mt-3 btn-outline-primary
-					btn.lg">Cadastre-se</a>
+					<p class="link">Não tem conta?<a href="cadastrotcc.php"> Cadastre-se </a>
+				</p>
 				</form>
 			</div>
 		</div>
