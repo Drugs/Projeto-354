@@ -22,7 +22,7 @@
 					<input placeholder="Digite seu email" class="form-control mb-3" type="email" name="email" />
 					<input  placeholder="Digite a senha" class="form-control mb-3" type="password" name="senha" />
 					<input class="w-100 btn btn-primary btn-lg" type="submit" />
-					<p class="link">Não tem conta?<a href="cadastrotcc.php"> Cadastre-se </a>
+					<p class=" link">Não tem conta?<a href="cadastrotcc.php"> Cadastre-se </a>
 				</p>
 				</form>
 			</div>
