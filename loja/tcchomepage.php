@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.88.1">
-    <title>Loja</title>
+    <title>LOJA</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">
 
@@ -96,27 +96,37 @@
 			</div>
 		</div>
 	
-      <div class="carousel-item">
-        <img src="https://i.ibb.co/Zc914Q6/Verde-e-Rosa-Logo-Minimalista.png" alt="Verde-e-Rosa-Logo-Minimalista" border="0">
-        <div class="container">
-          <div class="carousel-caption">
-            <h1>Introdução ao violão básico.</h1>
-            <p>Escalas, progressão, campo harmônico etc..</p>
-            <p><a class="btn btn-lg btn-primary" href="#">materiais</a></p>
-          </div>
-        </div>
-      </div>
-	  <div class="carousel-item">
-        <img src="https://i.ibb.co/Zc914Q6/Verde-e-Rosa-Logo-Minimalista.png" alt="Verde-e-Rosa-Logo-Minimalista" border="0">
-        <div class="container">
-          <div class="carousel-caption">
-            <h1>Esse é o slide 3.</h1>
-            <p>Mesma imagem outro slide.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">materiais</a></p>
-          </div>
-        </div>
-      </div>
-    </div>
+		<div class="carousel-item ">
+			<div class="carousel-caption text-start">
+				<div class="container">
+					<div class="row align-items-end">
+						<div class="col-sm-6">
+							<h1>Casacos,Pijamas,Camisas e muito mais...</h1>
+							<p>Temos variados tipos de roupas personalizadas para o seu gosto.</p>
+						</div>
+						<div class="col-sm-6">
+								<img class='w-75 h-75' src="./img/pijama1.png" alt="EH O PALMEIRAAAAAAAAS" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="carousel-item ">
+			<div class="carousel-caption text-start">
+				<div class="container">
+					<div class="row align-items-end">
+						<div class="col-sm-6">
+							<h1>Para todos os gostos e gêneros.</h1>
+							<p>Temos variados tipos de roupas personalizadas para o seu gosto.</p>
+						</div>
+						<div class="col-sm-6">
+								<img class='w-75 h-75' src="./img/pijama1.png" alt="EH O PALMEIRAAAAAAAAS" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
  
 	<button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
 		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -179,23 +189,23 @@
         <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
         <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
       </div>
-      <div class="col-md-5 order-md-1">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-
+      <div class="col-sm-5 order-md-1">
+      <img class='w-100 h-500' src="./img/egirlshopee.jpg" alt="EH O PALMEIRAAAAAAAAS" />
       </div>
     </div>
     <hr class="featurette-divider">
 
-    <div class="row featurette">
-      <div class="col-md-7">
+   <div class="row featurette">
+      <div class="col-md-6">
         <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
         <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
       </div>
-      <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-
+      <div class="col-sm-6">
+      <img class='w-500 h-500' src="./img/manmandrake.jpg" alt="EH O PALMEIRAAAAAAAAS" />
       </div>
     </div>
+
+    <hr class="featurette-divider"> 
     <section class="big-product">
       <div class="container">
         <div class="row">
@@ -212,6 +222,8 @@
         </div>
       </div>
     </section>
+
+    <hr class="featurette-divider">
     <section class="new-arrivals">
       <div class="container text-center">
         <h2 class="heading-center">Produtos em Alta</h2>
