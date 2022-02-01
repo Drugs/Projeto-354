@@ -1,19 +1,7 @@
 <?php
-$title = 'cadastro';
-/*$servidor ='localhost';
-	$usuario ='root'; 
-	$senha = '';
-	$banco = 'BAKBANK';
+include '../includes/conexao.php';
+$title = 'Cadastro';
 
-	$mysql = mysqli_connect($servidor, $usuario, $senha, $banco);
-
-	//já conectou, se tudo estiver certo.
-
-	// teste de conexão
-	if (!$mysql) {
-	  die("Connection failed: " . mysqli_connect_error());
-	}
-	
 if(isset($_GET) and $_GET != null){
 	var_dump($_GET);
 	$nome = $_GET['nome'];
@@ -29,10 +17,10 @@ if(isset($_GET) and $_GET != null){
 	
 	header('Location: logintcc.php?erro=O Cadastro foi realizado!!!');
 	
-	
+
 	
 }
-*/
+
 ?>
 <!DOCTYPE HTML>
 <html lang="en-US">

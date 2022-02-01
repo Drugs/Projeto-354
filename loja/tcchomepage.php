@@ -36,7 +36,7 @@
   <body>
     
 <header>
-<div class="container">
+<!-- <div class="container">
         <div class="row mt-5 align-items-stretch">
           <div class="mt-5 col-lg-6 d-flex align-items-center">
             <div class="content">
@@ -50,6 +50,7 @@
           </div>
         </div>
       </div>
+    -->
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"><font color="#e92187">Tia Cleide Store</font></a>
@@ -70,7 +71,7 @@
         </ul>
 		
 		<form class="d-flex">
-		<a  class="btn btn-outline-success  me-2" href="loja/logintcc.php"><font color="#e92187" type="submit">Login</font></a>
+		<a  class="btn btn-outline-success  me-2" href="logintcc.php"><font color="#e92187" type="submit">Login</font></a>
 		</form>
         <form class="d-flex">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -80,7 +81,6 @@
     </div>
   </nav>
 </header>
-
 <main>
   <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
@@ -131,7 +131,7 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-  
+  *\
   <div class="container marketing">
 
     <div class="row">
