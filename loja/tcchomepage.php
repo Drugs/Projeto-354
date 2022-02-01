@@ -88,7 +88,7 @@
 						</div>
 						<div class="col-sm-6">
 							<a href="loja/logintcc.php">
-								<img class='w-100' src="./img/camisaindio.jpg" alt="" />
+								<img class='w-75 h-75' src="./img/camisaindio.jpg" alt="" />
 							</a>
 						</div>
 					</div>
