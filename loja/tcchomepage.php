@@ -82,23 +82,33 @@
   </nav>
 </header>
 <main>
-  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div id="myCarousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
     <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="">
-        <div class="container">
-          <div class="carousel-caption text-start">
-            <h1>Roupas pra todos os estilos</h1>
-            <p>Navegue pelo nosso site e descubra.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Saiba mais</a></p>
-          </div>
-        </div>
-      </div>
+		<div class="carousel-item active">
+			<div class="carousel-caption text-start">
+				<div class="container">
+					<div class="row align-items-end">
+						<div class="col-sm-6">
+							<h1>Roupas pra todos os estilos</h1>
+							<p>Navegue pelo nosso site e descubra.</p>
+							<p><a class="btn btn-lg btn-primary" href="#">Saiba mais</a></p>
+						</div>
+						<div class="col-sm-6">
+						<a href="loja/logintcc.php">
+							<img class='w-100' src="./img/camisaindio.jpg" alt="" />
+						</a>
+					</div>
+				</div>
+				</div>
+				
+			</div>
+		</div>
+	
       <div class="carousel-item">
         <img src="https://i.ibb.co/Zc914Q6/Verde-e-Rosa-Logo-Minimalista.png" alt="Verde-e-Rosa-Logo-Minimalista" border="0">
         <div class="container">
@@ -121,7 +131,7 @@
           </div>
         </div>
       </div>
-    </div>
+	</div>
     <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Previous</span>
@@ -131,7 +141,7 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-  *\
+
   <div class="container marketing">
 
     <div class="row">
