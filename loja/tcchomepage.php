@@ -36,9 +36,7 @@
   <body>
     
 <header>
-<!-- 
-  navbar
-    -->
+
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"><font color="#e92187">Tia Cleide Store</font></a>
@@ -69,15 +67,16 @@
     </div>
   </nav>
 </header>
-
 <main>
   <div id="myCarousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
+	
+	<div class="carousel-indicators">
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
-    <div class="carousel-inner">
+   
+	<div class="carousel-inner">
 		<div class="carousel-item active">
 			<div class="carousel-caption text-start">
 				<div class="container">
@@ -88,13 +87,12 @@
 							<p><a class="btn btn-lg btn-primary" href="#">Saiba mais</a></p>
 						</div>
 						<div class="col-sm-6">
-						<a href="loja/logintcc.php">
-							<img class='w-100' src="./img/camisaindio.jpg" alt="" />
-						</a>
+							<a href="loja/logintcc.php">
+								<img class='w-75 h-75' src="./img/camisaindio.jpg" alt="" />
+							</a>
+						</div>
 					</div>
 				</div>
-				</div>
-				
 			</div>
 		</div>
 	
@@ -107,83 +105,30 @@
             <p><a class="btn btn-lg btn-primary" href="#">materiais</a></p>
           </div>
         </div>
-<!--
-  carrosell
-    -->
-<div class="container">
-	<div class="row mt-5">
-		<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-	
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-     <img src="./Projeto-354/img/pijama1.png" alt="Deu ruim" />
-      <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
       </div>
-    </div>
-    <div class="carousel-item">
-      <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: First slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect></svg>
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: First slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect></svg>
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
-      </div>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Anterior</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Próximo</span>
-  </button>
-</div>
-
-	</div>
-</div>
-	
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-<!--
-  parte da camisa normal
-    -->
-    <div class="container">
-        <div class="row mt-5 align-items-stretch">
-          <div class="mt-5 col-lg-6 d-flex align-items-center">
-            <div class="content">
-              <h1>Camisa Tribal</h1>
-              <p class="hero-text"><strong>6 cores variadas</strong><strong></strong> para a costumização.</p>
-			  <a href=".big-product" class="buy btn btn-primary">Compre agora <i class="icon-shopping-bag"></i></a>
-            </div>
-          </div>
-          <div class="col-lg-6">               
-            <div class="image mt-5 d-none d-lg-block"><img src="./img/camisaindio.jpg" alt="t-shirt" class="img-fluid mx-auto d-block"></div>
+	  <div class="carousel-item">
+        <img src="https://i.ibb.co/Zc914Q6/Verde-e-Rosa-Logo-Minimalista.png" alt="Verde-e-Rosa-Logo-Minimalista" border="0">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Esse é o slide 3.</h1>
+            <p>Mesma imagem outro slide.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">materiais</a></p>
           </div>
         </div>
       </div>
-	</div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
+    </div>
+ 
+	<button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		<span class="visually-hidden">Previous</span>
+	</button>
+	<button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+		<span class="visually-hidden">Next</span>
+	</button>
   </div>
+    
+
 
   <div class="container marketing">
 
@@ -336,8 +281,7 @@
     <p>&copy; 2017–2021 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
   </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" ></script>
-
-      
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
   </body>
 </html>
