@@ -2,7 +2,7 @@
 	$servidor ='localhost';
 	$usuario ='root'; 
 	$senha = '';
-	$banco = 'bancoweb';
+	$banco = 'bakbank';
 
 	$mysql = mysqli_connect($servidor, $usuario, $senha, $banco);
 
