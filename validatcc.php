@@ -12,25 +12,25 @@
 			$erro = 'Login não encontrado';
 			echo $erro;
 			#redireciona para o login
-			header('Location: logintcc.php?erro='.$erro);
+			header('Location: login.php?erro='.$erro);
 		}else{
 			$bdlogin=$result['email'];
 			$bdsenha=$result['senha'];
 			if($bdsenha == $senha){
-				header('Location: tcchomepage.php?id=' .$result['id_usuario']);
+				header('Location: home.php?id=' .$result['id_usuario']);
 			}else{
 				$erro = 'Senha incorreta';
 				echo $erro;
-				header('Location: logintcc.php?erro='.$erro);
+				header('Location: login.php?erro='.$erro);
 			}
 		}
 	}else{
 		if($login == null){
 			$erro = 'Digite o login';
-			header('Location: logintcc.php?erro='.$erro);
+			header('Location: login.php?erro='.$erro);
 		}else{
 			$erro = 'Digite a senha';
-			header('Location: logintcc.php?erro='.$erro);
+			header('Location: login.php?erro='.$erro);
 		}
 		
 	}
