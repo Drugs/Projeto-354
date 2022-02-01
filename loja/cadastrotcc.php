@@ -4,6 +4,8 @@ $title = 'Cadastro';
 
 if(isset($_GET) and $_GET != null){
 	var_dump($_GET);
+	$email = $_GET['email'];
+	$senha = $_GET['senha'];
 	$nome = $_GET['nome'];
 	$cpf  = $_GET['cpf'];
 	$nascimento = $_GET['nascimento'];
@@ -11,7 +13,7 @@ if(isset($_GET) and $_GET != null){
 	$telefone  = $_GET['telefone'];
 	$endereço  = $_GET['endereço'];
 	
-	$insert_pessoa = "INSERT INTO pessoa (nome, cpf, nascimento, cep, telefone, endereço) values ('$nome' , '$cpf' , '$nascimento'
+	$insert_pessoa = "INSERT INTO pessoa (nome, cpf, nascimento, cep, telefone, endereço) values ('$email' , '$senha' , '$nome' , '$cpf' , '$nascimento'
 	'$cep' , '$telefone' ,	'$endereço')";
 	$query = mysqli_query($mysql , $insert_pessoa);
 	$last_id = mysqli_insert_id($mysql);
