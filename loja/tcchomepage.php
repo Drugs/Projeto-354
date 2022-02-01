@@ -83,7 +83,7 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-     <img src="./img/pijama1.png" alt="Deu ruim" />
+     <img src="./Projeto-354/img/pijama1.png" alt="Deu ruim" />
       <div class="carousel-caption d-none d-md-block">
         <h5>First slide label</h5>
         <p>Some representative placeholder content for the first slide.</p>
