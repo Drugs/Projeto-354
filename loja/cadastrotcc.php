@@ -2,19 +2,18 @@
 include '../includes/conexao.php';
 $title = 'Cadastro';
 
-if(isset($_GET) and $_GET != null){
-	var_dump($_GET);
-	$email = $_GET['email'];
-	$senha = $_GET['senha'];
-	$nome = $_GET['nome'];
-	$cpf  = $_GET['cpf'];
-	$nascimento = $_GET['nascimento'];
-	$cep  = $_GET['cep'];
-	$telefone  = $_GET['telefone'];
-	$endereço  = $_GET['endereço'];
+if(isset($_POST) and $_POST != null){
+	var_dump($_POST);
+	$email = $_POST['email'];
+	$senha = $_POST['senha'];
+	$nome = $_POST['nome'];
+	$cpf  = $_POST['cpf'];
+	$nascimento = $_POST['nascimento'];
+	$cep  = $_POST['cep'];
+	$telefone  = $_POST['telefone'];
+	$endereço  = $_POST['endereço'];
 	
-	$insert_pessoa = "INSERT INTO pessoa (nome, cpf, nascimento, cep, telefone, endereço) values ('$email' , '$senha' , '$nome' , '$cpf' , '$nascimento'
-	'$cep' , '$telefone' ,	'$endereço')";
+	$insert_pessoa = "INSERT INTO pessoa (`nome`,`cpf`,`nascimento`,`cep`,`telefone`,`endereço`) values ('$nome','$cpf','$nascimento','$cep','$telefone','$endereço')";
 	$query = mysqli_query($mysql , $insert_pessoa);
 	$last_id = mysqli_insert_id($mysql);
 	$insert_usuario = "INSERT INTO usuario( email, senha, fk_id_pessoa) VALUES ('$email','$senha','$last_id')";
