@@ -2,7 +2,8 @@
 <html lang="en-US">
 <head>
 	<meta charset="UTF-8">
-	<link href="../css/logincss.css" rel="stylesheet">
+	<link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"  rel="stylesheet">
 	<title>Login</title>
 </head>
 <body class="text-center">

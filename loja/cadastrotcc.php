@@ -32,7 +32,6 @@ if(isset($_POST) and $_POST != null){
 <head>
 	<meta charset="UTF-8">
 	<title><?=$title?></title>
-	<link href="../css/cadastrocss.css" rel="stylesheet">
 	<link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"  rel="stylesheet">
 </head>
@@ -61,6 +60,7 @@ if(isset($_POST) and $_POST != null){
     </div>
   </nav>
 </header>
+
 <div id="cadastro"><br><br><br>
         <form method="post" action=""> 
           <h1>Cadastro</h1> 
