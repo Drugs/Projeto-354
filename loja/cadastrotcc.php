@@ -33,9 +33,35 @@ if(isset($_POST) and $_POST != null){
 	<meta charset="UTF-8">
 	<title><?=$title?></title>
 	<link href="../css/cadastrocss.css" rel="stylesheet">
+	<link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"  rel="stylesheet">
 </head>
 <body>
-<div id="cadastro">
+<header>
+
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><font color="#e92187">Tia Cleide Store</font></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled"></a>
+          </li>
+        </ul>
+		<form class="d-flex">
+		<a class="btn btn-outline-success  me-2" href="tcchomepage.php"><font color="#e92187" type="submit">Voltar</font></a>
+		</form>
+        <form class="d-flex">
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+<div id="cadastro"><br><br><br>
         <form method="post" action=""> 
           <h1>Cadastro</h1> 
            
