@@ -1,5 +1,4 @@
-
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -31,7 +30,7 @@
     </style>
 
     <!-- Custom styles for this template -->
-    <link href="../css/carousel.css" rel="stylesheet">
+    <link href="./css/carousel.css" rel="stylesheet">
   </head>
   <body>
     
