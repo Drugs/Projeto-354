@@ -39,7 +39,7 @@ if(isset($_POST) and $_POST != null){
 <header>
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"><font color="#e92187">Tia Cleide Store</font></a>
+      <a class="navbar-brand" href="/projeto-354/""><font color="#e92187">Tia Cleide Store</font></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -51,7 +51,7 @@ if(isset($_POST) and $_POST != null){
           </li>
         </ul>
 		<form class="d-flex">
-		<a class="btn btn-outline-success  me-2" href="tcchomepage.php"><font color="#e92187" type="submit">Voltar</font></a>
+		<a class="btn btn-outline-success  me-2" href="/projeto-354/"><font color="#e92187" type="submit">Voltar</font></a>
 		</form>
         <form class="d-flex">
         </form>
@@ -59,8 +59,9 @@ if(isset($_POST) and $_POST != null){
     </div>
   </nav>
 </header>
+<br><img src="https://i.ibb.co/Zc914Q6/Verde-e-Rosa-Logo-Minimalista.png">
 <body class="text-center">
-	<div class="container"><br>
+	<div class="container">
 		<h2 class="mt-5">Cadastro</h2>
 		<div class="row justify-content-center">
 			<div class="col-sm-8 col-md-6 col-lg-4">
