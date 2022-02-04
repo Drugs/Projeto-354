@@ -45,7 +45,7 @@
 		
 		<div class="row justify-content-center">
 			<div class="col-sm-8 col-md-6 col-lg-4">
-				<form action="valida.php" method="post">
+				<form action="validalogin.php" method="post">
 					<input placeholder="Digite seu email" class="form-control mb-3" type="email" name="email" />
 					<input  placeholder="Digite a senha" class="form-control mb-3" type="password" name="senha" />
 					<input class="w-100 btn btn-primary btn-lg" type="submit" />
