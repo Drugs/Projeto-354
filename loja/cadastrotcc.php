@@ -5,7 +5,7 @@ $title = 'Cadastro';
 if(isset($_POST) and $_POST != null){
 	var_dump($_POST);
 	$email = $_POST['email'];
-	$senha =base64_encode $_POST['senha'];
+	$senha = $_POST['senha'];
 	$nome = $_POST['nome'];
 	$cpf  = $_POST['cpf'];
 	$nascimento = $_POST['nascimento'];
@@ -34,6 +34,7 @@ if(isset($_POST) and $_POST != null){
 	<title>Cadastro</title>
 	<link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"  rel="stylesheet">
+	<link href="../css/carousel.css" rel="stylesheet">
 </head>
 <header>
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
@@ -58,9 +59,9 @@ if(isset($_POST) and $_POST != null){
     </div>
   </nav>
 </header>
-<body class="text-center"><br>
-	<div class="container">
-		<h2 class="mt-5">Cadastro</h2><br>
+<body class="text-center">
+	<div class="container"><br>
+		<h2 class="mt-5">Cadastro</h2>
 		<div class="row justify-content-center">
 			<div class="col-sm-8 col-md-6 col-lg-4">
 				<form action="valida.php" method="post">
@@ -73,12 +74,13 @@ if(isset($_POST) and $_POST != null){
 					<input placeholder="Telefone" class="form-control mb-3" type="text" name="telefone" />
 					<input placeholder="Endereço" class="form-control mb-3" type="text" name="endereço" />
 					
-					<a class="btn btn-lg btn-primary" href="#">Enviar</a>
-					<p class=" link">Não tem conta?<a href="cadastrotcc.php"> Cadastre-se </a>
-				</p>
+					<input class="w-100 btn btn-primary btn-lg" type="submit" "background: #e92187;" />
 				</form>
 			</div>
 		</div>
-	</div>
+	</div><br>
+	<footer class="container">
+    <p>&copy; 2017–2021 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  </footer>
 </body>
 </html>

@@ -1,0 +1,22 @@
+
+}
+.w-100 {
+    width: 100%!important;
+}
+.btn-group-lg>.btn, .btn-lg {
+    padding: 0.5
+rem
+ 1
+rem
+;
+    font-size: 1.25rem;
+    border-radius: 0.3
+rem
+;
+}
+.btn-primary {
+    color: #fff;
+    background-color:  #e92187;
+    border-color:  #e92187;
+}
+
