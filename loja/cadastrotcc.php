@@ -3,7 +3,7 @@ include '../includes/conexao.php';
 $title = 'Cadastro';
 
 if(isset($_POST) and $_POST != null){
-	var_dump($_POST);
+	#var_dump($_POST);
 	$email = $_POST['email'];
 	$senha = base64_encode($_POST['senha']);
 	$nome = $_POST['nome'];
@@ -20,9 +20,6 @@ if(isset($_POST) and $_POST != null){
 	$query = mysqli_query($mysql , $insert_usuario);
 	
 	header('Location: logintcc.php?erro=O Cadastro foi realizado!!!');
-	
-
-	
 }
 
 ?>
