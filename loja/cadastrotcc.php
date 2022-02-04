@@ -65,7 +65,7 @@ if(isset($_POST) and $_POST != null){
 		<h2 class="mt-5">Cadastro</h2>
 		<div class="row justify-content-center">
 			<div class="col-sm-8 col-md-6 col-lg-4">
-				<form action="valida.php" method="post">
+				<form method="post">
 					<input placeholder="Nome" class="form-control mb-3" type="text" name="nome" />
 					<input placeholder="Email" class="form-control mb-3" type="email" name="email" />
 					<input  placeholder="Senha" class="form-control mb-3" type="password" name="senha" />
