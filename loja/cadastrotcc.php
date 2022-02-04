@@ -5,7 +5,7 @@ $title = 'Cadastro';
 if(isset($_POST) and $_POST != null){
 	var_dump($_POST);
 	$email = $_POST['email'];
-	$senha = $_POST['senha'];
+	$senha = base64_encode($_POST['senha']);
 	$nome = $_POST['nome'];
 	$cpf  = $_POST['cpf'];
 	$nascimento = $_POST['nascimento'];
