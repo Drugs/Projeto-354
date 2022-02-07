@@ -26,7 +26,7 @@
 				<th>Deletar</th>
 			</tr>
 		<?php
-			foreach($result as $linha) {#quantos forem
+			foreach($result as $linha) {
 				echo '<tr>';
 				echo '<td>' .$linha['nome']. '</td>';
 				echo '<td>' .$linha['email']. '</td>';
