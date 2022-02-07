@@ -17,7 +17,7 @@
 			$bdlogin=$result['email'];
 			$bdsenha=$result['senha'];
 			if($bdsenha == $senha){
-				header('Location: interno.php?id=' .$result['id_usuario']);
+				header('Location: ../usuario/interno.php?id=' .$result['id_usuario']);
 				//aqui vc acertou morô
 			}else{
 				$erro = 'Senha incorreta';
