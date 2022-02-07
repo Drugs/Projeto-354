@@ -13,7 +13,9 @@ if(isset($_POST) and $_POST != null){
 	$telefone  = $_POST['telefone'];
 	$endereço  = $_POST['endereço'];
 	
-	$insert_pessoa = "INSERT INTO pessoa (`nome`,`cpf`,`nascimento`,`cep`,`telefone`,`endereço`) values ('$nome','$cpf','$nascimento','$cep','$telefone','$endereço')";
+	$insert_pessoa = "INSERT INTO pessoa 
+	(`nome`,`cpf`,`nascimento`,`cep`, `email`,`telefone`,`endereço`) values 
+	('$nome','$cpf','$nascimento','$cep', '$email','$telefone','$endereço')";
 	$query = mysqli_query($mysql , $insert_pessoa);
 	$last_id = mysqli_insert_id($mysql);
 	$insert_usuario = "INSERT INTO usuario( email, senha, fk_id_pessoa) VALUES ('$email','$senha','$last_id')";
