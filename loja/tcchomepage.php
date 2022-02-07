@@ -267,7 +267,7 @@
                <div class="item-info"><br><br>
                 <h5>Camisa de Anime básica rosa</h5>
                 <ul class="price list-inline">
-                  <li class="old list-inline-item">R$40,00</li>
+                  <li class="old list-inline-item">R$50,00</li>
                 <div class="hover-overlay">
                  <ul class="list-inline">
                     <li class="list-inline-item"><a href="javascript: return void();" class="cart"><i class="icon-cart-1"></i></a></li>
