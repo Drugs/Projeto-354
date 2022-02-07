@@ -276,6 +276,10 @@
                   </ul>
                 </div>
               </div>
+          </div>
+        </div>
+      </div>
+  </div>
 
 
     <!-- /END THE FEATURETTES -->
