@@ -138,9 +138,7 @@
 		</div>
 	</div>
     
-
-
-  <div class="container marketing">
+	<div class="container marketing">
 
     <div class="row">
       <div class="col-lg-4">
@@ -165,8 +163,6 @@
         <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
     </div><!-- /.row -->
-
-
     <!-- START THE FEATURETTES -->
 
     <hr class="featurette-divider">
