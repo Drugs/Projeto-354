@@ -85,9 +85,14 @@
 
   <div class="container-fluid">
     <div class="row">
-        <div class="col-sm-12">
-        <div class="col-lg-4"><img src="../img/biquinicapa.jpg" class="img-fluid max w-200" >
+        <div class="col-lg-8">
+            <div clas="col-lg-2">
             <h1 class="product-title__Title-sc-1hlrxcw-0 jyetLr">Biquini Vaquinha Asa Delta Larga</h1>
+            </div>
+        </div>
+
+        <div class="col-lg-4">
+            <img src="../img/biquinicapa.jpg" class="img-fluid max w-200" >
         </div>
     </div>
 </div>
