@@ -17,7 +17,8 @@
 			$bdlogin=$result['email'];
 			$bdsenha=$result['senha'];
 			if($bdsenha == $senha){
-				header('Location: tcchomepage.php?id=' .$result['id_usuario']);
+				header('Location: interno.php?id=' .$result['id_usuario']);
+				//aqui vc acertou morô
 			}else{
 				$erro = 'Senha incorreta';
 				echo $erro;
