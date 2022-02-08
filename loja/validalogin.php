@@ -7,7 +7,6 @@
 		#echo $select;
 		$query = mysqli_query($mysql, $select);
 		$result = mysqli_fetch_assoc($query);
-		
 		if($result == null){
 			$erro = 'Login não encontrado';
 			echo $erro;
