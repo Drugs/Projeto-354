@@ -40,7 +40,7 @@
 
 <body class="text-center">
 	<div class="container">
-	<br><img src="https://i.ibb.co/Zc914Q6/Verde-e-Rosa-Logo-Minimalista.png">
+	<br><img src= "../img/jesonelputo.png" alt="Image" height="60" width="60" color="pink">
 		<h2 class="mt-5">Login</h2>
 		<?php
 			if(isset($_GET['erro']) and $_GET != null){
