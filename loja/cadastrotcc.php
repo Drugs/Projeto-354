@@ -69,7 +69,7 @@ if(isset($_POST) and $_POST != null){
 
 <body class="text-center">
 	<div class="container">
-		<h2 class="mt-5">Cadastro</h2>
+		<h2 class="mt-3">Cadastro</h2>
 		<div class="row justify-content-center">
 			<div class="col-sm-8 col-md-6 col-lg-4">
 				<form method="post">

@@ -41,7 +41,7 @@
 <body class="text-center">
 	<div class="container">
 	<br><img src= "../img/jesonelputo.png" alt="Image" height="60" width="60" >
-		<h2 class="mt-5">Login</h2>
+		<h2 class="mt-3">Login</h2>
 		<?php
 			if(isset($_GET['erro']) and $_GET != null){
 				echo "<p>{$_GET['erro']}</p>";

@@ -48,14 +48,14 @@
     <ul class="nav nav-pills flex-column mb-auto">
       <li class="nav-item">
         <a href="#" class="nav-link active" aria-current="page">
-          <svg class="bi me-2" width="16" height="16" href="editarpessoa.php"></svg>
+          <svg class="bi me-2" width="16" height="16"><use xlink:href="#home"></use></svg>
           Editar Pessoa
         </a>
       </li>
       <li>
         <a href="#" class="nav-link text-white">
           <svg class="bi me-2" width="16" height="16"><use xlink:href="#speedometer2"></use></svg>
-          Editar Usuário
+          Editar Usário
         </a>
       </li>
       <li>
