@@ -83,25 +83,23 @@
   </div>
   </div>
 
-  <div class="container-fluid">
-    <div class="row">
-        <div class="col-lg-8">
-            <div clas="col-lg-2">
-            <h1 class="product-title__Title-sc-1hlrxcw-0 jyetLr">Biquini Vaquinha Asa Delta Larga</h1>
-            </div>
-        </div>
+  
 
-        <div class="col-lg-4">
-            <img src="../img/biquinicapa.jpg" class="img-fluid max w-200" >
-        </div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-5">
+    <img src="../img/biquini1.png" class="img-fluid max w-200">
+              <img src="../img/biquini2.png"  width="90" height="90">
     </div>
+    <div class="col-lg-7">
+      <div class="row">
+        <div class="col-lg-6">
+        <h1 class="product-title__Title-sc-1hlrxcw-0 jyetLr text-center">Biquini Vaquinha Asa Delta Larga</h1
+        </div>
+        <div class="col-lg-1">
+         <p>Produto</p>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
-       
-<div class="container marketing">
-<div class="row">
-    <div class="col-lg-4">
-        <hr class="featurette-divider"> 
-           <div><img src="../img/camisa234.jpg" class="bd-placeholder-img rounded-circle" width="200" height="200"></div>
-           </div>
-           </div>
-           </div>
