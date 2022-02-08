@@ -38,7 +38,7 @@
 
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src= "./img/jesonelputo.png"alt="Image" height="25" width="25"><font color="#e92187">Tia Cleide Store</font></a>
+      <a class="navbar-brand" href="./Projeto-354"><font color="#e92187">Tia Cleide Store</font></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -142,11 +142,10 @@
 
     <div class="row">
       <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-
-        <h2>Quem sou eu:</h2>
-        <p>Sou estudante e pratico música na igreja.</p>
-        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+      <img class="bd-placeholder-img rounded-circle" src="../img/biquinicapa.jpg"  width="140" height="140"/>
+        <h2>Biquini Vaquinha</h2>
+        <p>Um biquini  confortável e super tendência do momento, ele fica perfeito em todos  os estilos.</p>
+        <p><a class="btn btn-secondary" href="./loja/tccproduto.php">View details &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
         <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
