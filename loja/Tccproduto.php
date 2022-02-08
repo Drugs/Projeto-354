@@ -40,7 +40,7 @@
 
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"><font color="#e92187">Tia Cleide Store</font></a>
+      <a class="navbar-brand" href="./loja/Tcchomepage.php">><img src= "./img/jesonelputobranco.png"alt="Image" height="18" width="18"><font color="#e92187">Tia Cleide Store</font></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -91,15 +91,113 @@
     <img src="../img/biquini1.png" class="img-fluid max w-200">
               <img src="../img/biquini2.png"  width="90" height="90">
     </div>
-    <div class="col-lg-7">
-      <div class="row">
-        <div class="col-lg-6">
-        <h1 class="product-title__Title-sc-1hlrxcw-0 jyetLr text-center">Biquini Vaquinha Asa Delta Larga</h1
+    <div class="col-lg-7  text-justify">
+    <h2 class="text-justify">Biquini Vaquinha Asa Delta Larga</h2>
+      <div>
+        <div class="col-lg-9">
+        <p>
+         Cor:	Preto e Branco
+Estilo:	Fofo
+Tipo de Desenho:	Gráfico
+Detalhes:	Criss Cross, Embrulhar
+Tipo:	Biquinis
+Tipo de bottoms:	Natural
+Tipo de sutiã:	Sem fio
+Decote:	Alcinha
+Tecido:	Alongamento médio
+Material:	Poliéster
+Tecido/material:	82% Poliéster, 18% Elastano
+Instruções de cuidados:	Lavar à máquina, não lavar a seco
+Revestimento:	Forrado
+Almofada de peito:	Preenchimento removível
+</p>
         </div>
-        <div class="col-lg-1">
-         <p>Produto</p>
+        <div class="col-lg-3">
+        <li class="font-weight-bold-italic">R$57,90</li>
+        <button type="button" class="btn btn-primary w-100 mt-3">Primary</button>
+        <button type="button" class="btn btn-primary w-100 mt-3">Secondary</button>
         </div>
       </div>
     </div>
   </div>
 </div>
+
+
+<hr class="featurette-divider mt-4">
+    <section class="new-arrivals">
+      <div class="container text-center">
+        <h2 class="heading-center">Produtos em Alta</h2>
+        <div class="items">
+          <div class="row">
+            <div class="col-lg-4 item">
+              <div class="item-image"><img src="./img/camisa1.jpg" alt="shirt">
+                <div class="hover-overlay">
+                  <ul class="list-inline">
+                    <li class="list-inline-item"><a href="javascript: return void();" class="cart"><i class="icon-cart-1"></i></a></li>
+                    <li class="list-inline-item"><a href="javascript: return void();" class="wishlist"><i class="icon-like"></i></a></li>
+                    <li class="list-inline-item"><a href="#" data-target="#cart-popup-1" class="expand"><i class="icon-expand"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="item-info">
+                <h5>Camisa de anime básica branca</h5>
+                <ul class="price list-inline">
+                  <li class="list-inline-item current">R$40,00</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-4 item">
+              <div class="item-image"><img src="./img/camisa2.jpg" alt="shirt">
+                <div class="hover-overlay">
+                  <ul class="list-inline">
+                    <li class="list-inline-item"><a href="javascript: return void();" class="cart"><i class="icon-cart-1"></i></a></li>
+                    <li class="list-inline-item"><a href="javascript: return void();" class="wishlist"><i class="icon-like"></i></a></li>
+                    <li class="list-inline-item"><a href="#" data-target="#cart-popup-1" class="expand"><i class="icon-expand"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="item-info">
+                <h5>Camisa do Naruto</h5>
+                <ul class="price list-inline">
+                  <li class="old list-inline-item">R$70,00</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-4 item">
+              <div class="item-image"><img src="./img/camisa3.jpg" alt="shirt">
+               <div class="item-info"><br><br>
+                <h5>Camisa de Anime básica rosa</h5>
+                <ul class="price list-inline">
+                  <li class="old list-inline-item">R$50,00</li>
+                <div class="hover-overlay">
+                 <ul class="list-inline">
+                    <li class="list-inline-item"><a href="javascript: return void();" class="cart"><i class="icon-cart-1"></i></a></li>
+                    <li class="list-inline-item"><a href="javascript: return void();" class="wishlist"><i class="icon-like"></i></a></li>
+                    <li class="list-inline-item"><a href="#" data-target="#cart-popup-1" class="expand"><i class="icon-expand"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+  </div>
+
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+
+ 
+</main>
+    <hr class="featurette-divider">
+ <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>&copy; 2017–2021 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  </footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+  </body>
+</html>
