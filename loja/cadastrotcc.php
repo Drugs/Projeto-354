@@ -45,7 +45,7 @@ if(isset($_POST) and $_POST != null){
 <header>
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="/projeto-354/"><img src= "../img/jesonelputo.png"alt="Image" height="25" width="25"><font color="#e92187">Tia Cleide Store</font></a>
+       <a class="navbar-brand" href="#"><img src= "./img/jesonelputobranco.png"alt="Image" height="16" width="16" style=" height:20px"><font color="#e92187">Tia Cleide Store</font></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
