@@ -16,7 +16,7 @@
 	<header>
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="/projeto-354/""><font color="#e92187">Tia Cleide Store</font></a>
+      <a class="navbar-brand" href="/projeto-354/"><img src= "../img/jesonelputo.png"alt="Image" height="25" width="25"><font color="#e92187">Tia Cleide Store</font></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -40,7 +40,7 @@
 
 <body class="text-center">
 	<div class="container">
-	<br><img src="https://i.ibb.co/Zc914Q6/Verde-e-Rosa-Logo-Minimalista.png">
+	<br><img src= "../img/jesonelputo.png" alt="Image" height="60" width="60" >
 		<h2 class="mt-5">Login</h2>
 		<?php
 			if(isset($_GET['erro']) and $_GET != null){
