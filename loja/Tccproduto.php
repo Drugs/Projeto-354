@@ -40,7 +40,7 @@
 
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="./loja/Tcchomepage.php">><img src= "./img/jesonelputobranco.png"alt="Image" height="18" width="18"><font color="#e92187">Tia Cleide Store</font></a>
+    <a class="navbar-brand" href="../"><img src= "../img/jesonelputobranco.png"alt="Image" height="18" width="18"><font color="#e92187">Tia Cleide Store</font></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -122,7 +122,7 @@ Almofada de peito:	Preenchimento removível
   </div>
 </div>
 
-
+<div class="row">
 <hr class="featurette-divider mt-4">
     <section class="new-arrivals">
       <div class="container text-center">
@@ -130,7 +130,7 @@ Almofada de peito:	Preenchimento removível
         <div class="items">
           <div class="row">
             <div class="col-lg-4 item">
-              <div class="item-image"><img src="./img/camisa1.jpg" alt="shirt">
+              <div class="item-image"><img src="../img/camisa1.jpg" alt="shirt">
                 <div class="hover-overlay">
                   <ul class="list-inline">
                     <li class="list-inline-item"><a href="javascript: return void();" class="cart"><i class="icon-cart-1"></i></a></li>
@@ -147,7 +147,7 @@ Almofada de peito:	Preenchimento removível
               </div>
             </div>
             <div class="col-lg-4 item">
-              <div class="item-image"><img src="./img/camisa2.jpg" alt="shirt">
+              <div class="item-image"><img src="../img/camisa2.jpg" alt="shirt">
                 <div class="hover-overlay">
                   <ul class="list-inline">
                     <li class="list-inline-item"><a href="javascript: return void();" class="cart"><i class="icon-cart-1"></i></a></li>
@@ -164,7 +164,7 @@ Almofada de peito:	Preenchimento removível
               </div>
             </div>
             <div class="col-lg-4 item">
-              <div class="item-image"><img src="./img/camisa3.jpg" alt="shirt">
+              <div class="item-image"><img src="../img/camisa3.jpg" alt="shirt">
                <div class="item-info"><br><br>
                 <h5>Camisa de Anime básica rosa</h5>
                 <ul class="price list-inline">
@@ -181,7 +181,7 @@ Almofada de peito:	Preenchimento removível
         </div>
       </div>
   </div>
-
+</div>
 
     <!-- /END THE FEATURETTES -->
 
