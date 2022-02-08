@@ -13,7 +13,9 @@ if(isset($_POST) and $_POST != null){
 	$telefone  = $_POST['telefone'];
 	$endereço  = $_POST['endereço'];
 	
-	$insert_pessoa = "INSERT INTO pessoa (`nome`,`cpf`,`nascimento`,`cep`,`telefone`,`endereço`) values ('$nome','$cpf','$nascimento','$cep','$telefone','$endereço')";
+	$insert_pessoa = "INSERT INTO pessoa 
+	(`nome`,`cpf`,`nascimento`,`cep`, `email`,`telefone`,`endereço`) values 
+	('$nome','$cpf','$nascimento','$cep', '$email','$telefone','$endereço')";
 	$query = mysqli_query($mysql , $insert_pessoa);
 	$last_id = mysqli_insert_id($mysql);
 	$insert_usuario = "INSERT INTO usuario( email, senha, fk_id_pessoa) VALUES ('$email','$senha','$last_id')";
@@ -43,7 +45,7 @@ if(isset($_POST) and $_POST != null){
 <header>
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="/projeto-354/""><font color="#e92187">Tia Cleide Store</font></a>
+      <a class="navbar-brand" href="/projeto-354/"><img src= "../img/jesonelputo.png"alt="Image" height="25" width="25"><font color="#e92187">Tia Cleide Store</font></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -63,7 +65,8 @@ if(isset($_POST) and $_POST != null){
     </div>
   </nav>
 </header>
-<br><img src="https://i.ibb.co/Zc914Q6/Verde-e-Rosa-Logo-Minimalista.png">
+<br><img src= "../img/jesonelputo.png" alt="Image" height="60" width="60" >
+
 <body class="text-center">
 	<div class="container">
 		<h2 class="mt-5">Cadastro</h2>
