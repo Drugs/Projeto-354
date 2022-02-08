@@ -40,7 +40,7 @@
 
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="./loja/Tcchomepage.php"><font color="#e92187">Tia Cleide Store</font></a>
+      <a class="navbar-brand" href="./loja/Tcchomepage.php">><img src= "./img/jesonelputobranco.png"alt="Image" height="18" width="18"><font color="#e92187">Tia Cleide Store</font></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
