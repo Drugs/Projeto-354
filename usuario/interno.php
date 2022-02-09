@@ -1,4 +1,16 @@
+<<<<<<< HEAD
+<?php
+session_start();
+$_SESSION['usuario_master'] = 'Careca';
+echo $_SESSION['usuario_master'];
+?>
+
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+=======
 <html lang="en-US"><head>
+>>>>>>> 6a0241ad3c3f9f26458d47908e05877e02c0ce37
 	<meta charset="UTF-8">
 	<link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -15,7 +27,11 @@
 	</head><body><header>
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <div class="container-fluid">
+<<<<<<< HEAD
+      <a class="navbar-brand" href="/projeto-354/"><img src= "../img/jesonelputo.png"alt="Image" height="25" width="25"><font color="#e92187">Tia Cleide Store <?=$_SESSION['usuario_master']?></font></a>
+=======
       <a class="navbar-brand" href="#"><img src="../img/jesonelputobranco.png" alt="Image" height="18" width="18"><font color="#e92187">Tia Cleide Store</font></a>
+>>>>>>> 6a0241ad3c3f9f26458d47908e05877e02c0ce37
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
