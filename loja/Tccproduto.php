@@ -14,21 +14,21 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"  rel="stylesheet">
 
     <style>
-    #produtos{
-           max-width: 900px;
-           margin:0 auto;
-           padding:0 2%; 
-           display: flex;
-        }
-    
-          .produto-single{
-              width: 32%
-          }
+		#produtos{
+			max-width: 900px;
+			margin:0 auto;
+			padding:0 2%; 
+			display: flex;
+		}
 
-          .container {
-    display: flex;
-    flex-wrap: wrap;
-}
+		.produto-single{
+			width: 32%
+		}
+
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+		}
     </style>
 
     <!-- Custom styles for this template -->
@@ -37,8 +37,7 @@
   <body>
     
 <header>
-
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark mb-4">
     <div class="container-fluid">
     <a class="navbar-brand" href="../"><img src= "../img/jesonelputobranco.png"alt="Image" height="18" width="18"><font color="#e92187">Tia Cleide Store</font></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -71,17 +70,18 @@
 </header>
 
 <div class="container marketing mt-4">
-    <div class="col-sm-6 text-justify-rigth">
-    <div class="row">
-  <nav aria-label="breadcrumb">
-    <ol class="breadcrumb">
-      <li class="breadcrumb-item"><a href="#">Inicio</a></li>
-      <li class="breadcrumb-item"><a href="#">Biblioteca</a></li>
-      <li class="breadcrumb-item active" aria-current="page">Atual</li>
-    </ol>
-  </nav>
-  </div>
-  </div>
+	<div class="col-sm-6 text-justify-rigth">
+		<div class="row">
+			<nav aria-label="breadcrumb">
+				<ol class="breadcrumb">
+					<li class="breadcrumb-item"><a href="#">Inicio</a></li>
+					<li class="breadcrumb-item"><a href="#">Biblioteca</a></li>
+					<li class="breadcrumb-item active" aria-current="page">Atual</li>
+				</ol>
+			</nav>
+		</div>
+	</div>
+</div>
 
   
 
@@ -96,21 +96,21 @@
       <div>
         <div class="col-lg-9">
         <p>
-         Cor:	Preto e Branco
-Estilo:	Fofo
-Tipo de Desenho:	Gráfico
-Detalhes:	Criss Cross, Embrulhar
-Tipo:	Biquinis
-Tipo de bottoms:	Natural
-Tipo de sutiã:	Sem fio
-Decote:	Alcinha
-Tecido:	Alongamento médio
-Material:	Poliéster
-Tecido/material:	82% Poliéster, 18% Elastano
-Instruções de cuidados:	Lavar à máquina, não lavar a seco
-Revestimento:	Forrado
-Almofada de peito:	Preenchimento removível
-</p>
+			Cor:	Preto e Branco
+			Estilo:	Fofo
+			Tipo de Desenho:	Gráfico
+			Detalhes:	Criss Cross, Embrulhar
+			Tipo:	Biquinis
+			Tipo de bottoms:	Natural
+			Tipo de sutiã:	Sem fio
+			Decote:	Alcinha
+			Tecido:	Alongamento médio
+			Material:	Poliéster
+			Tecido/material:	82% Poliéster, 18% Elastano
+			Instruções de cuidados:	Lavar à máquina, não lavar a seco
+			Revestimento:	Forrado
+			Almofada de peito:	Preenchimento removível
+			</p>
         </div>
         <div class="col-lg-3">
         <li class="font-weight-bold-italic">R$57,90</li>
@@ -125,7 +125,7 @@ Almofada de peito:	Preenchimento removível
 <div class="row">
 <hr class="featurette-divider mt-4">
     <section class="new-arrivals">
-      <div class="container text-center">
+      <div class="container text-center" style="flex-direction: column;">
         <h2 class="heading-center">Produtos em Alta</h2>
         <div class="items">
           <div class="row">
@@ -192,7 +192,7 @@ Almofada de peito:	Preenchimento removível
 </main>
     <hr class="featurette-divider">
  <!-- FOOTER -->
-  <footer class="container">
+  <footer class="container" style="justify-content:space-between;">
     <p class="float-end"><a href="#">Back to top</a></p>
     <p>&copy; 2017–2021 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
   </footer>
