@@ -1,3 +1,9 @@
+<?php
+session_start();
+$_SESSION['usuario_master'] = 'Careca';
+echo $_SESSION['usuario_master'];
+?>
+
 <!DOCTYPE HTML>
 <html lang="en-US">
 <head>
