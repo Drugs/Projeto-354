@@ -120,7 +120,7 @@
       </div>
     </div>
   </div>
-
+<div class="container" style="display:block;">
   <div class="row">
     <hr class="featurette-divider mt-4">
     <div class="container text-center" style="flex-direction: column;">
@@ -130,13 +130,6 @@
           <div class="row">
             <div class="col-lg-4 item">
               <div class="item-image"><img src="../img/camisa1.jpg" alt="shirt">
-                <div class="hover-overlay">
-                  <ul class="list-inline">
-                    <li class="list-inline-item"><a href="javascript: return void();" class="cart"><i class="icon-cart-1"></i></a></li>
-                    <li class="list-inline-item"><a href="javascript: return void();" class="wishlist"><i class="icon-like"></i></a></li>
-                    <li class="list-inline-item"><a href="#" data-target="#cart-popup-1" class="expand"><i class="icon-expand"></i></a></li>
-                  </ul>
-                </div>
               </div>
               <div class="item-info">
                 <h5>Camisa de anime básica branca</h5>
@@ -147,13 +140,7 @@
             </div>
             <div class="col-lg-4 item">
               <div class="item-image"><img src="../img/camisa2.jpg" alt="shirt">
-                <div class="hover-overlay">
-                  <ul class="list-inline">
-                    <li class="list-inline-item"><a href="javascript: return void();" class="cart"><i class="icon-cart-1"></i></a></li>
-                    <li class="list-inline-item"><a href="javascript: return void();" class="wishlist"><i class="icon-like"></i></a></li>
-                    <li class="list-inline-item"><a href="#" data-target="#cart-popup-1" class="expand"><i class="icon-expand"></i></a></li>
-                  </ul>
-                </div>
+                
               </div>
               <div class="item-info">
                 <h5>Camisa do Naruto</h5>
@@ -168,12 +155,7 @@
                   <h5>Camisa de Anime básica rosa</h5>
                   <ul class="price list-inline">
                     <li class="old list-inline-item">R$50,00</li>
-                    <div class="hover-overlay">
-                      <ul class="list-inline">
-                        <li class="list-inline-item"><a href="javascript: return void();" class="cart"><i class="icon-cart-1"></i></a></li>
-                        <li class="list-inline-item"><a href="javascript: return void();" class="wishlist"><i class="icon-like"></i></a></li>
-                        <li class="list-inline-item"><a href="#" data-target="#cart-popup-1" class="expand"><i class="icon-expand"></i></a></li>
-                      </ul>
+				  </ul>
                     </div>
                 </div>
               </div>
@@ -183,6 +165,7 @@
       </div>
     </div>  
 
+</div>
       <!-- /END THE FEATURETTES -->
 
   </div><!-- /.container -->
