@@ -181,6 +181,7 @@
           </div>
         </div>
       </div>
+    </div>  
 
       <!-- /END THE FEATURETTES -->
 
