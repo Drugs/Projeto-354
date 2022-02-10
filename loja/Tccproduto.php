@@ -81,8 +81,7 @@
     <div class="row gy-1">
     <nav aria-label="breadcrumb">
           <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="#">Inicio</a></li>
-            <li class="breadcrumb-item"><a href="#">Biblioteca</a></li>
+            <li class="breadcrumb-item"><a href="bibliotecaproduto.php">Biblioteca</a></li>
             <li class="breadcrumb-item active" aria-current="page">Atual</li>
           </ol>
         </nav>
@@ -94,7 +93,7 @@
       <div class="col-lg-7  text-justify">
         <h2 class="text-justify">Biquini Vaquinha Asa Delta Larga</h2>
       <div class="row">
-          <div class="col-lg-9">
+          <div class="col-lg-9 mt-3">
             <p>
               Cor: Preto e Branco
               Estilo: Fofo
@@ -113,7 +112,7 @@
             </p>
           </div>
           <div class="col-lg-3">
-            <p class="fw-bold fst-italic">R$57,90</p>
+            <p class="fw-bold fst-italic mt-3">R$57,90</p>
             <button type="button" class="btn btn-primary w-100 mt-3">Primary</button>
             <button type="button" class="btn btn-primary w-100 mt-3">Secondary</button>
           </div>
@@ -124,8 +123,8 @@
 <div class="container" style="display:block;">
   <div class="row">
     <hr class="featurette-divider mt-4">
+    <div class="container text-center" style="flex-direction: column;">
     <section class="new-arrivals">
-      <div class="container text-center" style="flex-direction: column;">
         <h2 class="heading-center">Produtos em Alta</h2>
         <div class="items">
           <div class="row">
@@ -164,12 +163,12 @@
           </div>
         </div>
       </div>
+    </div>  
 
 </div>
       <!-- /END THE FEATURETTES -->
 
   </div><!-- /.container -->
-
 
 
   </main>
