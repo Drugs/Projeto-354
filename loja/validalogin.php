@@ -1,4 +1,9 @@
 <?php
+
+	session_start();
+	$_SESSION['usuario_master'] = 'Careca';
+	echo $_SESSION['usuario_master'];
+	
 	include "../includes/conexao.php";
 	$login = $_POST['email'];
 	$senha = base64_encode($_POST['senha']);

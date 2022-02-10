@@ -76,15 +76,9 @@
       </div>
     </nav>
   </header>
-
-
-
-
-
-
-
+  
   <div class="container" style="margin-top: 4rem!important;">
-    <div class="row gy-5">
+    <div class="row gy-1">
     <nav aria-label="breadcrumb">
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="bibliotecaproduto.php">Biblioteca</a></li>
