@@ -1,7 +1,9 @@
 <?php 
 	session_start();
+	#var_dump($_SESSION);
+	#die();
 	include '../includes/conexao.php';
-	$userid = $_SESSION['usuario_id'];
+	$userid = $_SESSION['id_usuario'];
 	if(isset($_GET['userid']) and $_GET['userid'] != null){
 		$nome = $_GET['nome'];
 		$cpf = $_GET['cpf'];
@@ -13,10 +15,11 @@
 		$update = "update usuario set nome='$nome', cpf='$cpf', nascimento='$nascimento', cep='$cep', telefone='$telefone', endereço='$endereço'   
 		where id_usuario = '$id' ";
 		mysqli_query($mysql, $update);
-		$_GET['id'] = $_GET['userid'];
+		$_GET['id'] = $userid;
 	}
 	if(isset($userid)){
-		$select = "select * from usuario where id_usuario = $userid";
+		$select = "select * from usuario
+		where id_usuario = $userid";
 		$query = mysqli_query($mysql , $select);
 		$result = mysqli_fetch_assoc($query);
 	}
@@ -68,6 +71,7 @@
 <body class="text-center">
 	<div class="container">
 		<h2 class="mt-3">Editar Pessoa</h2>
+		
 		<div class="row justify-content-center">
 			<div class="col-sm-8 col-md-6 col-lg-4">
 				<form class="row" action="">
