@@ -1,17 +1,7 @@
-<?php
-$servidor ='localhost';
-	$usuario ='root'; 
-	$senha = '';
-	$banco = 'bakbank';
-
-	$mysql = mysqli_connect($servidor, $usuario, $senha, $banco);
-
-	//já conectou, se tudo estiver certo.
-
-	// teste de conexão
-	if (!$mysql) {
-	  die("Connection failed: " . mysqli_connect_error());
-	}
+<?php 
+	session_start();
+	include '../includes/conexao.php';
+	$userid = $_SESSION['usuario_id'];
 	if(isset($_GET['userid']) and $_GET['userid'] != null){
 		$nome = $_GET['nome'];
 		$cpf = $_GET['cpf'];
@@ -25,15 +15,12 @@ $servidor ='localhost';
 		mysqli_query($mysql, $update);
 		$_GET['id'] = $_GET['userid'];
 	}
-	if(isset($_GET['id'])){
-		$id_usuario = $_GET['id'];
-		$select = "select * from usuario where id_usuario = $id_usuario";
+	if(isset($userid)){
+		$select = "select * from usuario where id_usuario = $userid";
 		$query = mysqli_query($mysql , $select);
 		$result = mysqli_fetch_assoc($query);
 	}
-	$title = 'Editar usuário';
-
-			
+	$title = 'Editar usuário';	
 			
 
 
@@ -69,7 +56,7 @@ $servidor ='localhost';
           </li>
         </ul>
 		<form class="d-flex">
-		<a class="btn btn-outline-success  me-2" href="/projeto-354/"><font color="#e92187" type="submit">Voltar</font></a>
+		<a class="btn btn-outline-success  me-2" href="/Projeto354/"><font color="#e92187" type="submit">Voltar</font></a>
 		</form>
         <form class="d-flex">
         </form>
