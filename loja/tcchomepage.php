@@ -110,7 +110,7 @@ echo $_SESSION['usuario_master'];
 							<p>Temos variados tipos de roupas personalizadas para o seu gosto.</p>
 						</div>
 						<div class="col-sm-6">
-								<img class='w-75 h-75' src="./img/pijama1.png" alt="EH O PALMEIRAAAAAAAAS" />
+								<img class='w-75 h-75' src="./img/camisa400.jpg" alt="EH O PALMEIRAAAAAAAAS" />
 						</div>
 					</div>
 				</div>
@@ -148,9 +148,9 @@ echo $_SESSION['usuario_master'];
 
     <div class="row">
       <div class="col-lg-4">
-      <img class="bd-placeholder-img rounded-circle" src="./img/biquinicapa.jpg"  width="140" height="140"/>
-        <h2>Biquini Vaquinha</h2>
-        <p>Um biquini  confortável e super tendência do momento, ele fica perfeito em todos  os estilos.</p>
+      <img class="bd-placeholder-img rounded-circle" src="./img/camisa355.jpg"  width="140" height="140"/>
+        <h2>Vintage Quiksilver T Shirt</h2>
+        <p>Uma camisa confortável e retrô, trazendo o glamour perfeito em todos  os estilos indie.</p>
         <p><a class="btn btn-secondary" href="./loja/tccproduto.php">View details &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
@@ -178,7 +178,7 @@ echo $_SESSION['usuario_master'];
         <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
       </div>
       <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+      <img class='w-100 h-500' src="./img/rickmorty1.jpg" alt="EH O PALMEIRAAAAAAAAS" />
 
       </div>
     </div>
