@@ -37,6 +37,13 @@
       font-weight: bold;
     }
 
+    .container {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    min-height: 10em;
+    display: table-cell;
+    align: center;
+  }
     #produtos {
       max-width: 400px;
       margin: 0 auto;
@@ -112,11 +119,11 @@
       </div>
       <div class="col-lg-7  text-justify">
         <p class="ponto mt-3">R$57,90</p>
-        <button type="button" style="background-color:Black;" class="butao btn btn-primary w-100 mt-3">Buy Now</button>
+        <button type="button" style="background-color:Black;" class="butao btn btn-primary w-100">Buy Now</button>
         <div class="row">
-        <h2 class=" texto text-justify mt-2">QuikSilver T-shirt</h2>
-          <div class="col-lg-9 mt-3">
-            <p class=" texto sc-jrsJWt styles__DescriptionContainer-sc-__sc-1fk4zep-12 dfXtnW boccQk">
+          <h2 class=" texto mt-2">QuikSilver T-shirt</h2>
+          <div class="col-lg-9  text-center mt-2">
+            <p class=" descricao sc-jrsJWt styles__DescriptionContainer-sc-__sc-1fk4zep-12 dfXtnW boccQk">
               Donec vitae nibh eu quam maximus commodo. Mauris bibendum, erat non venenatis eleifend, odio neque pellentesque libero, vitae eleifend est leo ut urna. Aliquam eget facilisis ex. Praesent at lacinia ipsum. Vivamus nec est pulvinar, sollicitudin arcu eu, ultricies sem. Donec dictum ipsum eu luctus venenatis.
               Aliquam fermentum urna lobortis vehicula placerat. Sed aliquet non neque tempus facilisis.
               Curabitur ut elit ut metus imperdiet laoreet nec sit amet dui. Praesent enim nibh, fringilla a sapien non, condimentum tempus nisl.
