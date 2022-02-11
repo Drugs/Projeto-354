@@ -15,7 +15,7 @@
 		$update = "update usuario set nome='$nome', cpf='$cpf', nascimento='$nascimento', cep='$cep', telefone='$telefone', endereço='$endereço'   
 		where id_usuario = '$id' ";
 		mysqli_query($mysql, $update);
-		$_P['id'] = $userid;
+		$_POST['id'] = $userid;
 	}
 	if(isset($userid)){
 		$select = "select * from pessoa 
