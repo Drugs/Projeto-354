@@ -1,22 +1,26 @@
 <?php 
 	session_start();
+	#var_dump($_SESSION);
+	#die();
 	include '../includes/conexao.php';
-	$userid = $_SESSION['usuario_id'];
-	if(isset($_GET['userid']) and $_GET['userid'] != null){
-		$nome = $_GET['nome'];
-		$cpf = $_GET['cpf'];
-		$nascimento = $_GET['nascimento'];
-		$cep = $_GET['cep'];
-		$telefone = $_GET['telefone'];
-		$endereço = $_GET['endereço'];
-		$id = $_GET['userid'];
+	$userid = $_SESSION['id_usuario'];
+	if(isset($_POST['userid']) and $_POST['userid'] != null){
+		$nome = $_POST['nome'];
+		$cpf = $_POST['cpf'];
+		$nascimento = $_POST['nascimento'];
+		$cep = $_POST['cep'];
+		$telefone = $_POST['telefone'];
+		$endereço = $_POST['endereço'];
+		$id = $_POST['userid'];
 		$update = "update usuario set nome='$nome', cpf='$cpf', nascimento='$nascimento', cep='$cep', telefone='$telefone', endereço='$endereço'   
 		where id_usuario = '$id' ";
 		mysqli_query($mysql, $update);
-		$_GET['id'] = $_GET['userid'];
+		$_P['id'] = $userid;
 	}
 	if(isset($userid)){
-		$select = "select * from usuario where id_usuario = $userid";
+		$select = "select * from pessoa 
+		join usuario on usuario.fk_id_pessoa = pessoa.id_pessoa
+		where id_usuario = {$_SESSION['id_usuario']}";
 		$query = mysqli_query($mysql , $select);
 		$result = mysqli_fetch_assoc($query);
 	}
@@ -68,6 +72,7 @@
 <body class="text-center">
 	<div class="container">
 		<h2 class="mt-3">Editar Pessoa</h2>
+		
 		<div class="row justify-content-center">
 			<div class="col-sm-8 col-md-6 col-lg-4">
 				<form class="row" action="">

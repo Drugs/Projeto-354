@@ -7,6 +7,7 @@
 	$mysql = mysqli_query($mysql , $sql);
 	$result = mysqli_fetch_assoc($mysql);
 	$_SESSION['usuario_nome'] = $result['nome'];
+	$_SESSION['usuario_email'] = $result['email'];
 	#$_SESSION[] = $result[''];
 ?>
 <!DOCTYPE HTML>
@@ -49,41 +50,43 @@
          </div>
       </nav>
    </header>
-      <a href="/" class="d-flex align-items-center mb-3 mt-5 mb-md-0 me-md-auto text-white text-decoration-none">
-         <svg class="bi me-2" width="40" height="32">
-            <use xlink:href="#bootstrap"></use>
-         </svg>
-         <span class="fs-4 mt-4">Dados</span>
-      </a>
-      <hr>
-      <ul class="nav nav-pills flex-column mb-auto">
-         <li class="nav-item">
-            <a href="#" class="nav-link active" aria-current="page">
-               <svg class="bi me-2" width="16" height="16" href="editarpessoa.php"></svg> Editar Pessoa </a>
-         </li>
-         <li>
-            <a href="#" class="nav-link text-white">
-               <svg class="bi me-2" width="16" height="16">
-                  <use xlink:href="#speedometer2"></use>
-               </svg> Editar Usuário </a>
-         </li>
-         <li>
-            <a href="#" class="nav-link text-white">
-               <svg class="bi me-2" width="16" height="16">
-                  <use xlink:href="#table"></use>
-               </svg> Carrinho </a>
-         </li>
-         <li>
-            <a href="logout.php" class="nav-link text-white">
-               <svg class="bi me-2" width="16" height="16">
-                  <use xlink:href="#grid"></use>
-               </svg> Logout </a>
-         </li>
-      </ul>
-      <hr>
-      <div class="dropdown">
-         <strong><?=$_SESSION['usuario_nome']?></strong>
-      </div>
+	<div class="d-flex flex-column p-3 text-white bg-dark" style="position: absolute;flex-shrink: 0;top: -5px;width: 272px;height: 100%;">
+    <a href="/" class="d-flex align-items-center mb-3 mt-5 mb-md-0 me-md-auto text-white text-decoration-none">
+      <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+      <span class="fs-4 mt-4">Dados</span>
+    </a>
+    <hr>
+    <ul class="nav nav-pills flex-column mb-auto">
+      <li class="nav-item">
+        <a href="editarpessoa.php" class="nav-link active" aria-current="page">
+          <svg class="bi me-2" width="16" height="16" href="editarpessoa.php"></svg>
+          Editar Pessoa
+        </a>
+      </li>
+      <li>
+        <a href="#" class="nav-link text-white">
+          <svg class="bi me-2" width="16" height="16"><use xlink:href="#speedometer2"></use></svg>
+          Editar Usuário
+        </a>
+      </li>
+      <li>
+        <a href="#" class="nav-link text-white">
+          <svg class="bi me-2" width="16" height="16"><use xlink:href="#table"></use></svg>
+          Carrinho
+        </a>
+      </li>
+      <li>
+        <a href="logout.php" class="nav-link text-white">
+          <svg class="bi me-2" width="16" height="16"><use xlink:href="#grid"></use></svg>
+          Logout
+        </a>
+      </li>
+    </ul>
+    <hr>
+    <div class="dropdown">
+		<strong><?=$_SESSION['usuario_nome']?></strong>
+		<strong><?=$_SESSION['usuario_email']?></strong>
+	</div>
    </div>
 </body>
 </html>
