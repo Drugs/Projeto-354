@@ -4,18 +4,17 @@
 	#die();
 	include '../includes/conexao.php';
 	$userid = $_SESSION['id_usuario'];
-	if(isset($_POST['userid']) and $_POST['userid'] != null){
+	if(isset($_POST['pessoaid']) and $_POST['pessoaid'] != null){
 		$nome = $_POST['nome'];
 		$cpf = $_POST['cpf'];
 		$nascimento = $_POST['nascimento'];
 		$cep = $_POST['cep'];
 		$telefone = $_POST['telefone'];
 		$endereço = $_POST['endereço'];
-		$id = $_POST['userid'];
-		$update = "update usuario set nome='$nome', cpf='$cpf', nascimento='$nascimento', cep='$cep', telefone='$telefone', endereço='$endereço'   
-		where id_usuario = '$id' ";
+		$id = $_POST['pessoaid'];
+		$update = "update pessoa set nome='$nome', cpf='$cpf', nascimento='$nascimento', cep='$cep', telefone='$telefone', endereço='$endereço'   
+		where id_pessoa = '$id' ";
 		mysqli_query($mysql, $update);
-		$_POST['id'] = $userid;
 	}
 	if(isset($userid)){
 		$select = "select * from pessoa 
@@ -75,14 +74,14 @@
 		
 		<div class="row justify-content-center">
 			<div class="col-sm-8 col-md-6 col-lg-4">
-				<form class="row" action="">
+				<form class="row" method="post" action="">
 					<input placeholder="Nome" class="form-control mb-3" type="text" name="nome"value="<?php echo $result['nome'];?>" />
 					<input placeholder="CPF" class="form-control mb-3" type="text" name="cpf" value="<?php echo $result['cpf'];?>" />
 					<input class="form-control mb-3" type="date" name="nascimento" value="<?php echo $result['nascimento'];?>" />
 					<input placeholder="CEP" class="form-control mb-3" type="text" name="cep" value="<?php echo $result['cep'];?>" />
 					<input placeholder="Telefone" class="form-control mb-3" type="text" name="telefone" value="<?php echo $result['telefone'];?>"/>
 					<input placeholder="Endereço" class="form-control mb-3" type="text" name="endereço" value="<?php echo $result['endereço'];?>" />
-					<input type="hidden" name="userid" value="<?php echo $result['id_usuario'];?>" />
+					<input type="hidden" name="pessoaid" value="<?php echo $result['id_pessoa'];?>" />
 					
 					<input class="w-100 btn btn-primary btn-lg" type="submit" "background: #e92187;" />
 				</form>
@@ -91,7 +90,7 @@
 	</div><br>
     <div class="container">
   <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-    <p class="col-md-4 mb-0 text-muted">© 2021 Company, Inc</p>
+    <p class="col-md-4 mb-0 text-muted">©2021 Company, Inc</p>
 
     <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
       <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
