@@ -7,6 +7,7 @@
 	$mysql = mysqli_query($mysql , $sql);
 	$result = mysqli_fetch_assoc($mysql);
 	$_SESSION['usuario_nome'] = $result['nome'];
+	$_SESSION['usuario_email'] = $result['email'];
 	#$_SESSION[] = $result[''];
 ?>
 
@@ -85,6 +86,7 @@
     <hr>
     <div class="dropdown">
         <strong><?=$_SESSION['usuario_nome']?></strong>
+		<strong><?=$_SESSION['usuario_email']?></strong>
       
       <ul class="dropdown-menu dropdown-menu-dark text-small shadow" aria-labelledby="dropdownUser1">
         <li><a class="dropdown-item" href="#">New project...</a></li>
