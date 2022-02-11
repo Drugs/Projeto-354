@@ -14,9 +14,31 @@
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" rel="stylesheet">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:wght@200&family=Rowdies:wght@700&display=swap" rel="stylesheet">
+
   <style>
+    .ponto {
+      font-size: 1.55rem;
+      font-weight: bold;
+      font-family: 'Rowdies', cursive;
+      color: rgb(0, 0, 0);
+
+    }
+
+    .butao {
+      font-family: 'Bebas Neue', cursive;
+      font-size: 1.95rem;
+    }
+
+    .texto {
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold;
+    }
+
     #produtos {
-      max-width: 900px;
+      max-width: 400px;
       margin: 0 auto;
       padding: 0 2%;
       display: flex;
@@ -76,93 +98,82 @@
       </div>
     </nav>
   </header>
-  
+
   <div class="container" style="margin-top: 4rem!important;">
     <div class="row gy-1">
-    <nav aria-label="breadcrumb">
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="bibliotecaproduto.php">Biblioteca</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Atual</li>
-          </ol>
-        </nav>
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="bibliotecaproduto.php">Biblioteca</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Atual</li>
+        </ol>
+      </nav>
       <div class="col-lg-5">
-        <img src="../img/camisa354.jpg" class="img-fluid max w-150">
+        <img src="../img/camisa354.jpg" class="img-fluid ">
       </div>
       <div class="col-lg-7  text-justify">
-        <h2 class="text-justify">Biquini Vaquinha Asa Delta Larga</h2>
-      <div class="row">
+        <p class="ponto mt-3">R$57,90</p>
+        <button type="button" style="background-color:Black;" class="butao btn btn-primary w-100 mt-3">Buy Now</button>
+        <div class="row">
+        <h2 class=" texto text-justify mt-2">QuikSilver T-shirt</h2>
           <div class="col-lg-9 mt-3">
-            <p>Cor: Preto e Branco</p>
-            <p>Estilo: Fofo</p>
-            <p>Tipo de Desenho: Gráfico</p>
-            <p>Detalhes: Criss Cross, Embrulhar</p>
-            <p>Tipo: Biquinis</p>
-            <p>Tipo de bottoms: Natural</p>
-            <p>Tipo de sutiã: Sem fio</p>
-            <p>Decote: Alcinha</p>
-            <p>Tecido: Alongamento médio</p>
-            <p>Material: Poliéster</p>
-            <p>Tecido/material: 82% Poliéster, 18% Elastano</p>
-            <p>Instruções de cuidados: Lavar à máquina, não lavar a seco</p>
-            <p>Revestimento: Forrado</p>
-            <p>Almofada de peito: Preenchimento removível</p>
-          </div>
-          <div class="col-lg-3">
-            <p class="fw-bold fst-italic mt-3">R$57,90</p>
-            <button type="button" class="btn btn-primary w-100 mt-3">Primary</button>
-            <button type="button" class="btn btn-primary w-100 mt-3">Secondary</button>
+            <p class=" texto sc-jrsJWt styles__DescriptionContainer-sc-__sc-1fk4zep-12 dfXtnW boccQk">
+              Donec vitae nibh eu quam maximus commodo. Mauris bibendum, erat non venenatis eleifend, odio neque pellentesque libero, vitae eleifend est leo ut urna. Aliquam eget facilisis ex. Praesent at lacinia ipsum. Vivamus nec est pulvinar, sollicitudin arcu eu, ultricies sem. Donec dictum ipsum eu luctus venenatis.
+              Aliquam fermentum urna lobortis vehicula placerat. Sed aliquet non neque tempus facilisis.
+              Curabitur ut elit ut metus imperdiet laoreet nec sit amet dui. Praesent enim nibh, fringilla a sapien non, condimentum tempus nisl.
+              Maecenas aliquet porta nulla nec venenatis. Praesent finibus et ligula sit amet rutrum. Sed urna urna, aliquet a purus vel, accumsan cursus libero. Nam luctus vitae sem a ullamcorper.
+            </p>
           </div>
         </div>
       </div>
     </div>
   </div>
-<div class="container" style="display:block;">
-  <div class="row">
-    <hr class="featurette-divider mt-4">
-    <div class="container text-center" style="flex-direction: column;">
-    <section class="new-arrivals">
-        <h2 class="heading-center">Produtos em Alta</h2>
-        <div class="items">
-          <div class="row">
-            <div class="col-lg-4 item">
-              <div class="item-image"><img src="../img/camisa1.jpg" alt="shirt">
-              </div>
-              <div class="item-info">
-                <h5>Camisa de anime básica branca</h5>
-                <ul class="price list-inline">
-                  <li class="list-inline-item current">R$40,00</li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-lg-4 item">
-              <div class="item-image"><img src="../img/camisa2.jpg" alt="shirt">
-                
-              </div>
-              <div class="item-info">
-                <h5>Camisa do Naruto</h5>
-                <ul class="price list-inline">
-                  <li class="old list-inline-item">R$70,00</li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-lg-4 item">
-              <div class="item-image"><img src="../img/camisa3.jpg" alt="shirt">
-                <div class="item-info"><br><br>
-                  <h5>Camisa de Anime básica rosa</h5>
+  <div class="container" style="display:block;">
+    <div class="row">
+      <hr class="featurette-divider mt-4">
+      <div class="container text-center" style="flex-direction: column;">
+        <section class="new-arrivals">
+          <h2 class="heading-center">Produtos em Alta</h2>
+          <div class="items">
+            <div class="row">
+              <div class="col-lg-4 item">
+                <div class="item-image"><img src="../img/camisa1.jpg" alt="shirt">
+                </div>
+                <div class="item-info">
+                  <h5>Camisa de anime básica branca</h5>
                   <ul class="price list-inline">
-                    <li class="old list-inline-item">R$50,00</li>
-				  </ul>
-                    </div>
+                    <li class="list-inline-item current">R$40,00</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-4 item">
+                <div class="item-image"><img src="../img/camisa2.jpg" alt="shirt">
+
+                </div>
+                <div class="item-info">
+                  <h5>Camisa do Naruto</h5>
+                  <ul class="price list-inline">
+                    <li class="old list-inline-item">R$70,00</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-4 item">
+                <div class="item-image"><img src="../img/camisa3.jpg" alt="shirt">
+                  <div class="item-info"><br><br>
+                    <h5>Camisa de Anime básica rosa</h5>
+                    <ul class="price list-inline">
+                      <li class="old list-inline-item">R$50,00</li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
       </div>
-    </div>  
+    </div>
+  </div>
 
-</div>
-      <!-- /END THE FEATURETTES -->
+  </div>
+  <!-- /END THE FEATURETTES -->
 
   </div><!-- /.container -->
 
