@@ -1,7 +1,13 @@
 <?php
-session_start();
-$_SESSION['usuario_master'] = 'Careca';
-echo $_SESSION['usuario_master'];
+	session_start();
+	include '../includes/conexao.php';
+	$sql = "select * from pessoa 
+		join usuario on usuario.fk_id_pessoa = pessoa.id_pessoa
+		where id_usuario = {$_SESSION['id_usuario']} ";
+	$mysql = mysqli_query($mysql , $sql);
+	$result = mysqli_fetch_assoc($mysql);
+	$_SESSION['usuario_nome'] = $result['nome'];
+	#$_SESSION[] = $result[''];
 ?>
 
 <!DOCTYPE HTML>
@@ -78,7 +84,7 @@ echo $_SESSION['usuario_master'];
     </ul>
     <hr>
     <div class="dropdown">
-        <strong>mdo</strong>
+        <strong><?=$_SESSION['usuario_nome']?></strong>
       
       <ul class="dropdown-menu dropdown-menu-dark text-small shadow" aria-labelledby="dropdownUser1">
         <li><a class="dropdown-item" href="#">New project...</a></li>
