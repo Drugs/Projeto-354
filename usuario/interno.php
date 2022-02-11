@@ -49,7 +49,6 @@
          </div>
       </nav>
    </header>
-   <div class="d-flex flex-column p-3 text-white bg-dark" style="position: absolute;flex-shrink: 0;top: -5px;width: 272px;height: 100%;">
       <a href="/" class="d-flex align-items-center mb-3 mt-5 mb-md-0 me-md-auto text-white text-decoration-none">
          <svg class="bi me-2" width="40" height="32">
             <use xlink:href="#bootstrap"></use>
