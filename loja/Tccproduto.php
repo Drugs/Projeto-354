@@ -86,30 +86,26 @@
           </ol>
         </nav>
       <div class="col-lg-5">
-        <img src="../img/biquini1.png" class="img-fluid max w-150">
-        <img src="../img/biquini2.png" width="90" height="90">
-        <img src="../img/biquini3.jpg" width="90" height="90">
+        <img src="../img/camisa354.jpg" class="img-fluid max w-150">
       </div>
       <div class="col-lg-7  text-justify">
         <h2 class="text-justify">Biquini Vaquinha Asa Delta Larga</h2>
       <div class="row">
           <div class="col-lg-9 mt-3">
-            <p>
-              Cor: Preto e Branco
-              Estilo: Fofo
-              Tipo de Desenho: Gráfico
-              Detalhes: Criss Cross, Embrulhar
-              Tipo: Biquinis
-              Tipo de bottoms: Natural
-              Tipo de sutiã: Sem fio
-              Decote: Alcinha
-              Tecido: Alongamento médio
-              Material: Poliéster
-              Tecido/material: 82% Poliéster, 18% Elastano
-              Instruções de cuidados: Lavar à máquina, não lavar a seco
-              Revestimento: Forrado
-              Almofada de peito: Preenchimento removível
-            </p>
+            <p>Cor: Preto e Branco</p>
+            <p>Estilo: Fofo</p>
+            <p>Tipo de Desenho: Gráfico</p>
+            <p>Detalhes: Criss Cross, Embrulhar</p>
+            <p>Tipo: Biquinis</p>
+            <p>Tipo de bottoms: Natural</p>
+            <p>Tipo de sutiã: Sem fio</p>
+            <p>Decote: Alcinha</p>
+            <p>Tecido: Alongamento médio</p>
+            <p>Material: Poliéster</p>
+            <p>Tecido/material: 82% Poliéster, 18% Elastano</p>
+            <p>Instruções de cuidados: Lavar à máquina, não lavar a seco</p>
+            <p>Revestimento: Forrado</p>
+            <p>Almofada de peito: Preenchimento removível</p>
           </div>
           <div class="col-lg-3">
             <p class="fw-bold fst-italic mt-3">R$57,90</p>
