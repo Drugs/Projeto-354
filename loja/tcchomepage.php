@@ -33,6 +33,12 @@ echo $_SESSION['usuario_master'];
           font-size: 3.5rem;
         }
       }
+
+    .imagem {
+ width: 10%;
+ height: 10%;
+
+}
     </style>
 
     <!-- Custom styles for this template -->
@@ -154,15 +160,13 @@ echo $_SESSION['usuario_master'];
         <p><a class="btn btn-secondary" href="./loja/tccproduto.php">View details &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-
-        <h2>Heading</h2>
+      <img class="bd-placeholder-img rounded-circle" src="./img/animal2.png"  width="140" height="140"/>
+        <h2>Cute Black Cat Hoodie</h2>
         <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
         <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-
+      <img class="bd-placeholder-img rounded-circle" src="./img/banana2.jpg"  width="140" height="140"/>
         <h2>Heading</h2>
         <p>And lastly this, the third column of representative placeholder content.</p>
         <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
@@ -210,10 +214,10 @@ echo $_SESSION['usuario_master'];
     <section class="big-product">
       <div class="container">
         <div class="row">
-          <div class="col-md-4 product"><img src="./img/rosa.jpg" alt="t-shirt" class="img-fluid"></div>
+          <div class="col-md-4 product"><img src="./img/deathnote.jpg" alt="t-shirt" class="img-fluid"></div>
           <div class="col-md-8 info">
             <div class="info-wrapper">
-              <h2>Rosa Deslumbrante</h2>
+              <h2>death note metal t-shirt</h2>
               <p class="lead">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                 et dolore
@@ -224,70 +228,55 @@ echo $_SESSION['usuario_master'];
       </div>
     </section>
 
-    <hr class="featurette-divider">
-    <section class="new-arrivals">
-      <div class="container text-center">
-        <h2 class="heading-center">Produtos em Alta</h2>
-        <div class="items">
-          <div class="row">
-            <div class="col-lg-4 item">
-              <div class="item-image"><img src="./img/camisa1.jpg" alt="shirt">
-                <div class="hover-overlay">
-                  <ul class="list-inline">
-                    <li class="list-inline-item"><a href="javascript: return void();" class="cart"><i class="icon-cart-1"></i></a></li>
-                    <li class="list-inline-item"><a href="javascript: return void();" class="wishlist"><i class="icon-like"></i></a></li>
-                    <li class="list-inline-item"><a href="#" data-target="#cart-popup-1" class="expand"><i class="icon-expand"></i></a></li>
+    <div class="container" style="display:block;">
+    <div class="row">
+      <hr class="featurette-divider mt-4">
+      <div class="container text-center" style="flex-direction: column;">
+        <section class="new-arrivals">
+          <h2 class="heading-center">Produtos em Alta</h2>
+          <div class="items">
+            <div class="row">
+              <div class="col-lg-4 item">
+                <div class="item-image"><img src="./img/fairytail.jpg" alt="shirt">
+                </div>
+                <div class="item-info">
+                  <h5>fairy tail unissex t-shirt</h5>
+                  <ul class="price list-inline">
+                    <li class="list-inline-item current">R$39,90</li>
                   </ul>
                 </div>
               </div>
-              <div class="item-info">
-                <h5>Camisa de anime básica branca</h5>
-                <ul class="price list-inline">
-                  <li class="list-inline-item current">R$40,00</li>
-                </ul>
+              <div class="col-lg-4 item">
+                <div class="item-image"><img src="./img/casaco2.jpg" alt="shirt">
+
+                </div>
+                <div class="item-info">
+                  <h5>Brand New Black + Pink Hoodie.</h5>
+                  <ul class="price list-inline">
+                    <li class="old list-inline-item">R$135,90</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-4 item">
+                <div class="item-image"><img src="./img/iguanaalana2.jpg" alt="shirt">
+                  <div class="item-info"
+                    <h5>iguana alana grapic tshirt merch</h5>
+                    <ul class="price list-inline">
+                      <li class="old list-inline-item">R$56,90</li>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="col-lg-4 item">
-              <div class="item-image"><img src="./img/camisa2.jpg" alt="shirt">
-                <div class="hover-overlay">
-                  <ul class="list-inline">
-                    <li class="list-inline-item"><a href="javascript: return void();" class="cart"><i class="icon-cart-1"></i></a></li>
-                    <li class="list-inline-item"><a href="javascript: return void();" class="wishlist"><i class="icon-like"></i></a></li>
-                    <li class="list-inline-item"><a href="#" data-target="#cart-popup-1" class="expand"><i class="icon-expand"></i></a></li>
-                  </ul>
-                </div>
-              </div>
-              <div class="item-info">
-                <h5>Camisa do Naruto</h5>
-                <ul class="price list-inline">
-                  <li class="old list-inline-item">R$70,00</li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-lg-4 item">
-              <div class="item-image"><img src="./img/camisa3.jpg" alt="shirt">
-               <div class="item-info"><br><br>
-                <h5>Camisa de Anime básica rosa</h5>
-                <ul class="price list-inline">
-                  <li class="old list-inline-item">R$50,00</li>
-                <div class="hover-overlay">
-                 <ul class="list-inline">
-                    <li class="list-inline-item"><a href="javascript: return void();" class="cart"><i class="icon-cart-1"></i></a></li>
-                    <li class="list-inline-item"><a href="javascript: return void();" class="wishlist"><i class="icon-like"></i></a></li>
-                    <li class="list-inline-item"><a href="#" data-target="#cart-popup-1" class="expand"><i class="icon-expand"></i></a></li>
-                  </ul>
-                </div>
-              </div>
           </div>
-        </div>
       </div>
+    </div>
   </div>
 
-
-    <!-- /END THE FEATURETTES -->
+  </div>
+  <!-- /END THE FEATURETTES -->
 
   </div><!-- /.container -->
-
 
  
 </main>
