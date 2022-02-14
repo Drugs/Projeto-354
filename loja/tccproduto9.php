@@ -3,7 +3,7 @@
 $servername = "localhost"; // identificando o servidor
 $username = "root"; // usuário
 $password = ""; // senha
-$database = "bancoweb";
+$database = "bakbank";
  
 // Create connection
 $nyx = mysqli_connect($servername, $username, $password,$database);
@@ -13,7 +13,11 @@ if (!$nyx) {
   die("Connection failed: " . mysqli_connect_error());
 }
 
+$sql = "SELECT * FROM `produto` WHERE id_produto = 1";
+$query = mysqli_query($nyx , $sql);
+$result = mysqli_fetch_assoc($query);
 
+var_dump($result);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -142,11 +146,8 @@ if (!$nyx) {
           <p class=" texto">P/M/G/XG<p>
           <div class="col-lg-9  text-center mt-2">
             <p class=" descricao sc-jrsJWt styles__DescriptionContainer-sc-__sc-1fk4zep-12 dfXtnW boccQk">
-              Donec vitae nibh eu quam maximus commodo. Mauris bibendum, erat non venenatis eleifend, odio neque pellentesque libero, vitae eleifend est leo ut urna. Aliquam eget facilisis ex. Praesent at lacinia ipsum. Vivamus nec est pulvinar, sollicitudin arcu eu, ultricies sem. Donec dictum ipsum eu luctus venenatis.
-              Aliquam fermentum urna lobortis vehicula placerat. Sed aliquet non neque tempus facilisis.
-              Curabitur ut elit ut metus imperdiet laoreet nec sit amet dui. Praesent enim nibh, fringilla a sapien non, condimentum tempus nisl.
-              Maecenas aliquet porta nulla nec venenatis. Praesent finibus et ligula sit amet rutrum. Sed urna urna, aliquet a purus vel, accumsan cursus libero. Nam luctus vitae sem a ullamcorper.
-            </p>
+            <?php echo $result ['descricao']?>
+          </p>
           </div>
         </div>
       </div>

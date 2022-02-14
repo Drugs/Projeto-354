@@ -178,7 +178,7 @@ echo $_SESSION['usuario_master'];
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <img class="bd-placeholder-img rounded-circle" src="./img/banana1.jpg" width="140" height="140" />
-          <h2>Heading</h2>
+          <h2>Banana Fish T-Shirt</h2>
           <p>And lastly this, the third column of representative placeholder content.</p>
           <p><a class="btn btn-secondary" href="./loja/tccproduto5.php">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
@@ -192,7 +192,7 @@ echo $_SESSION['usuario_master'];
           <h2 class="featurette-heading">Nos Siga. <span class="text-muted">Nas Redes Sociais</span></h2>
           <p class="lead">Veja mais do nosso trabalho?
             Siga nossas redes sociais
-            [12:30]
+
             Trabalhe conosco!
             Entre contato pelo endereço ao lado/abaixo</p>
         </div>
@@ -237,7 +237,7 @@ echo $_SESSION['usuario_master'];
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                   et dolore
                 </p>
-              </div><a href="#" class="add-to-cart btn btn-primary">adicione ao carrinho <i class="icon-cart-1"></i></a><br><br><br><br>
+              </div><a href="loja/tccproduto9.php" class="add-to-cart btn btn-primary">adicione ao carrinho <i class="icon-cart-1"></i></a><br><br><br><br>
             </div>
           </div>
         </div>
