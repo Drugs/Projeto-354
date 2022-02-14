@@ -103,7 +103,6 @@ echo $_SESSION['usuario_master'];
                 <div class="col-sm-6">
                   <h1>Roupas pra todos os estilos</h1>
                   <p>Navegue pelo nosso site e descubra.</p>
-                  <p><a class="btn btn-lg btn-primary" href="#">Saiba mais</a></p>
                 </div>
                 <div class="col-sm-6">
                   <a href="loja/tccproduto3.php">
@@ -253,6 +252,7 @@ echo $_SESSION['usuario_master'];
               <div class="items">
                 <div class="row">
                   <div class="col-lg-4 item">
+                    <a href="loja/tccproduto6.php">
                     <div class="item-image"><img src="./img/fairytail.jpg" alt="shirt">
                     </div>
                     <div class="item-info">
@@ -260,6 +260,7 @@ echo $_SESSION['usuario_master'];
                       <ul class="price list-inline">
                         <li class="list-inline-item current">R$39,90</li>
                       </ul>
+                      </a>
                     </div>
                   </div>
                   <div class="col-lg-4 item">
@@ -267,7 +268,7 @@ echo $_SESSION['usuario_master'];
 
                     </div>
                     <div class="item-info">
-                      <a>
+                    <a href="loja/tccproduto7.php">
                         <h5>Brand New Black + Pink Hoodie.</h5>
                         <ul class="price list-inline">
                           <li class="old list-inline-item">R$135,90</li>
@@ -276,10 +277,10 @@ echo $_SESSION['usuario_master'];
                     </div>
                   </div>
                   <div class="col-lg-4 item">
+                  <a href="loja/tccproduto8.php">   
                     <div class="item-image"><img src="./img/iguanaalana2.jpg" alt="shirt">
                     </div>
-                    <div class="item-info">
-                      <a>
+                    <div class="item-info">  
                         <h5>iguana alana grapic tshirt merch</h5>
                         <ul class="price list-inline">
                           <li class="old list-inline-item">R$56,90</li>

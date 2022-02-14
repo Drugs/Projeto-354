@@ -115,13 +115,13 @@
         </ol>
       </nav>
       <div class="col-lg-5">
-        <img src="../img/camisa354.jpg" class="img-fluid ">
+        <img src="../img/iguanalana1.jpg" class="img-fluid ">
       </div>
       <div class="col-lg-7  text-justify">
-        <p class="ponto mt-3">R$57,90</p>
+        <p class="ponto mt-3">R$56,90</p>
         <button type="button" style="background-color:Black;" class="butao btn btn-primary w-100">Buy Now</button>
         <div class="row">
-          <h2 class=" texto mt-2">QuikSilver T-shirt</h2>
+          <h2 class=" texto mt-2">iguana alana grapic tshirt merch</h2>
           <div class="col-lg-9  text-center mt-2">
             <p class=" descricao sc-jrsJWt styles__DescriptionContainer-sc-__sc-1fk4zep-12 dfXtnW boccQk">
               Donec vitae nibh eu quam maximus commodo. Mauris bibendum, erat non venenatis eleifend, odio neque pellentesque libero, vitae eleifend est leo ut urna. Aliquam eget facilisis ex. Praesent at lacinia ipsum. Vivamus nec est pulvinar, sollicitudin arcu eu, ultricies sem. Donec dictum ipsum eu luctus venenatis.

@@ -121,7 +121,7 @@
         <p class="ponto mt-3">R$57,90</p>
         <button type="button" style="background-color:Black;" class="butao btn btn-primary w-100">Buy Now</button>
         <div class="row">
-          <h2 class=" texto mt-2">QuikSilver T-shirt</h2>
+          <h2 class=" texto mt-2">APACHE TRIBAL T-SHIRT</h2>
           <p class="texto">P/M/G/XG</p>
           <div class="col-lg-9  text-center mt-1">
             <p class=" descricao sc-jrsJWt styles__DescriptionContainer-sc-__sc-1fk4zep-12 dfXtnW boccQk">
