@@ -115,14 +115,15 @@
         </ol>
       </nav>
       <div class="col-lg-5">
-        <img src="../img/camisa354.jpg" class="img-fluid ">
+      <img src="../img/402.jpg" class="img-fluid ">
       </div>
       <div class="col-lg-7  text-justify">
-        <p class="ponto mt-3">R$56,90</p>
+        <p class="ponto mt-3">R$47,90</p>
         <button type="button" style="background-color:Black;" class="butao btn btn-primary w-100">Buy Now</button>
         <div class="row">
-          <h2 class=" texto mt-2">iguana alana grapic tshirt merch</h2>
-          <div class="col-lg-9  text-center mt-2">
+          <h2 class=" texto mt-2">VINTAGE CAT SWEATSHIRT</h2>
+          <p class="texto">P/M/G/XG</p>
+          <div class="col-lg-9  text-center mt-1">
             <p class=" descricao sc-jrsJWt styles__DescriptionContainer-sc-__sc-1fk4zep-12 dfXtnW boccQk">
               Donec vitae nibh eu quam maximus commodo. Mauris bibendum, erat non venenatis eleifend, odio neque pellentesque libero, vitae eleifend est leo ut urna. Aliquam eget facilisis ex. Praesent at lacinia ipsum. Vivamus nec est pulvinar, sollicitudin arcu eu, ultricies sem. Donec dictum ipsum eu luctus venenatis.
               Aliquam fermentum urna lobortis vehicula placerat. Sed aliquet non neque tempus facilisis.
@@ -134,3 +135,67 @@
       </div>
     </div>
   </div>
+  <div class="container" style="display:block;">
+    <div class="row">
+      <hr class="featurette-divider mt-4">
+      <div class="container text-center" style="flex-direction: column;">
+        <section class="new-arrivals">
+          <h2 class="heading-center">Produtos em Alta</h2>
+          <div class="items">
+            <div class="row">
+              <div class="col-lg-4 item">
+                <div class="item-image"><img src="../img/fairytail.jpg" alt="shirt">
+                </div>
+                <div class="item-info">
+                  <h5>fairy tail unissex t-shirt</h5>
+                  <ul class="price list-inline">
+                    <li class="list-inline-item current">R$39,90</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-4 item">
+                <div class="item-image"><img src="../img/casaco2.jpg" alt="shirt">
+
+                </div>
+                <div class="item-info">
+                <a><h5>Brand New Black + Pink Hoodie.</h5>
+                  <ul class="price list-inline">
+                    <li class="old list-inline-item">R$135,90</li>
+                  </ul></a>
+                </div>
+              </div>
+              <div class="col-lg-4 item">
+                <div class="item-image"><img src="../img/iguanaalana2.jpg" alt="shirt">
+                </div>
+                  <div class="item-info">
+                    <a><h5>iguana alana grapic tshirt merch</h5>
+                    <ul class="price list-inline">
+                      <li class="old list-inline-item">R$56,90</li>
+                    </ul></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+  <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+ 
+</main>
+    <hr class="featurette-divider">
+ <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>&copy; 2017–2021 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  </footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+  </body>
+</html>

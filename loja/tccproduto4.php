@@ -3,7 +3,7 @@
 $servername = "localhost"; // identificando o servidor
 $username = "root"; // usuário
 $password = ""; // senha
-$database = "bancoweb";
+$database = "bakbank";
  
 // Create connection
 $nyx = mysqli_connect($servername, $username, $password,$database);
@@ -132,13 +132,13 @@ if (!$nyx) {
         </ol>
       </nav>
       <div class="col-lg-5">
-        <img src="../img/pijama1.png" class="img-fluid ">
+        <img src="../img/animal1.png" class="img-fluid ">
       </div>
       <div class="col-lg-7  text-justify">
       <p class="ponto mt-3">R$54,90</p>
         <button type="button" style="background-color:Black;" class="butao btn btn-primary w-100">Buy Now</button>
         <div class="row">
-          <h2 class=" texto mt-2">kuromi cute nigth suit</h2>          
+          <h2 class=" texto mt-2">black cat cute hoodie</h2>          
           <p class=" texto">P/M/G/XG<p>
           <div class="col-lg-9  text-center mt-2">
             <p class=" descricao sc-jrsJWt styles__DescriptionContainer-sc-__sc-1fk4zep-12 dfXtnW boccQk">
@@ -162,7 +162,7 @@ if (!$nyx) {
           <div class="items">
             <div class="row">
               <div class="col-lg-4 item">
-                <div class="item-image"><img src="./img/fairytail.jpg" alt="shirt">
+                <div class="item-image"><img src="../img/fairytail.jpg" alt="shirt">
                 </div>
                 <div class="item-info">
                   <h5>fairy tail unissex t-shirt</h5>
@@ -172,7 +172,7 @@ if (!$nyx) {
                 </div>
               </div>
               <div class="col-lg-4 item">
-                <div class="item-image"><img src="./img/casaco2.jpg" alt="shirt">
+                <div class="item-image"><img src="../img/casaco2.jpg" alt="shirt">
 
                 </div>
                 <div class="item-info">
@@ -183,7 +183,7 @@ if (!$nyx) {
                 </div>
               </div>
               <div class="col-lg-4 item">
-                <div class="item-image"><img src="./img/iguanaalana2.jpg" alt="shirt">
+                <div class="item-image"><img src="../img/iguanaalana2.jpg" alt="shirt">
                 </div>
                   <div class="item-info">
                     <a><h5>iguana alana grapic tshirt merch</h5>
