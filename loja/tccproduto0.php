@@ -93,7 +93,7 @@
 
 
           <form class="d-flex">
-            <a class="btn btn-outline-success  me-2" href="./loja/logintcc.php">
+            <a class="btn btn-outline-success  me-2" href="../loja/logintcc.php">
               <font color="#e92187" type="submit">Login</font>
             </a>
           </form>
