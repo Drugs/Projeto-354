@@ -1,7 +1,7 @@
 <?php
 session_start();
 $_SESSION['usuario_master'] = 'Careca';
-echo $_SESSION['usuario_master'];
+#echo $_SESSION['usuario_master'];
 ?>
 
 <!DOCTYPE html>
@@ -52,7 +52,7 @@ echo $_SESSION['usuario_master'];
 
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="./"><img src="./img/jesonelputobranco.png" alt="Image" height="18" width="18">
+        <a class="navbar-brand" href="./"><img src="./img/jesonelwhite.png" alt="Image" height="15" width="15" style="vertical-align: baseline;">
           <font color="#e92187">Tia Cleide Store</font>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -73,12 +73,12 @@ echo $_SESSION['usuario_master'];
             </li>
           </ul>
 
-          <form class="d-flex">
+          <form class="d-flex" style="margin-bottom: 0;">
             <a class="btn btn-outline-success  me-2" href="./loja/logintcc.php">
               <font color="#e92187" type="submit">Login</font>
             </a>
           </form>
-          <form class="d-flex">
+          <form class="d-flex" style="margin-bottom: 0;">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success" type="submit">Search</button>
           </form>
