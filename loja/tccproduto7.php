@@ -3,7 +3,7 @@
 $servername = "localhost"; // identificando o servidor
 $username = "root"; // usuário
 $password = ""; // senha
-$database = "bancoweb";
+$database = "bakbank";
  
 // Create connection
 $nyx = mysqli_connect($servername, $username, $password,$database);
