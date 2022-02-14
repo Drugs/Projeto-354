@@ -27,7 +27,7 @@
    <header>
       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
          <div class="container-fluid">
-            <a class="navbar-brand ms-2" href="#"><img src="../img/jesonelwhite.png" alt="Image" height="15" width="15" class="me-1" style="vertical-align:baseline;">
+            <a class="navbar-brand ms-2" href="../"><img src="../img/jesonelwhite.png" alt="Image" height="15" width="15" class="me-1" style="vertical-align:baseline;">
                <font color="#e92187">Tia Cleide Store</font>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,7 +40,7 @@
                   </li>
                </ul>
                <form class="d-flex" style="margin-bottom: 0px;">
-                  <a class="btn btn-outline-success  me-2" href="/projeto-354/">
+                  <a class="btn btn-outline-success  me-2" href="../">
                      <font color="#e92187" type="submit">Voltar</font>
                   </a>
                </form>
