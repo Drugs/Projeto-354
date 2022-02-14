@@ -1,3 +1,24 @@
+<?php
+ 
+$servername = "localhost"; // identificando o servidor
+$username = "root"; // usuário
+$password = ""; // senha
+$database = "bakbank";
+ 
+// Create connection
+$nyx = mysqli_connect($servername, $username, $password,$database);
+ 
+// Check connection
+if (!$nyx) {
+  die("Connection failed: " . mysqli_connect_error());
+}
+
+
+?>
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
